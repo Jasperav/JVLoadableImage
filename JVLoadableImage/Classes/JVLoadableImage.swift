@@ -28,31 +28,29 @@ open class LoadableImage: UIView {
     
     /// Will show an image with an indicator to indicate a higher resolution photo is being downloaded
     open func show(blurredImage: UIImage) {
-        self.image.setImage(blurredImage, for: .normal)
-        
-        self.image.alpha = 1
+        image.setImage(blurredImage, for: .normal)
+        image.alpha = 1
+        image.isUserInteractionEnabled = false
         indicator.alpha = 1
         isLoading = true
-        image.isUserInteractionEnabled = false
     }
     
     open func show(image: UIImage) {
         self.image.setImage(image, for: .normal)
-        
         self.image.alpha = 1
+        self.image.isUserInteractionEnabled = true
+        
         indicator.alpha = 0
         isLoading = false
-        image.isUserInteractionEnabled = true
     }
     
     open func showIndicator() {
-        image.alpha = 0
-        indicator.alpha = 1
-        
         // We have to do this every time the cell reappears.
         indicator.startAnimating()
-        isLoading = true
+        indicator.alpha = 1
+        image.alpha = 0
         image.isUserInteractionEnabled = false
+        isLoading = true
     }
     
     @objc private func _tapped() {
