@@ -56,8 +56,10 @@ open class LoadableImage: UIView {
         isLoading = true
     }
     
-    public func set(contentMode: ContentMode) {
-        image.imageView!.contentMode = contentMode
+    public func stretchImage() {
+        image.imageView!.contentMode = .scaleAspectFill
+        image.contentHorizontalAlignment = .fill
+        image.contentVerticalAlignment = .fill
     }
     
     @objc private func _tapped() {
