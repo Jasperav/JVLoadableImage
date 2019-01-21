@@ -4,8 +4,8 @@ import JVConstraintEdges
 /// Presents a loading view wich acts like a placeholder for an upcoming image.
 open class LoadableImage: UIView {
     
-    private let indicator: UIActivityIndicatorView
     private let image = UIButton(frame: .zero)
+    private let indicator: UIActivityIndicatorView
     private let tapped: (() -> ())!
     private let rounded: Bool
     public private (set) var isLoading = true
@@ -54,6 +54,10 @@ open class LoadableImage: UIView {
         image.alpha = 0
         image.isUserInteractionEnabled = false
         isLoading = true
+    }
+    
+    public func set(contentMode: ContentMode) {
+        image.imageView!.contentMode = contentMode
     }
     
     @objc private func _tapped() {
