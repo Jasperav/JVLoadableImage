@@ -10,6 +10,9 @@ open class LoadableImage: UIView {
     private let rounded: Bool
     public private (set) var isLoading = true
     
+    // The identifier for the photo. Can later be used to set the image on if it is done loading.
+    public var identifier: Int64 = 0
+    
     public init(style: UIActivityIndicatorView.Style, rounded: Bool, tapped: (() -> ())? = nil) {
         indicator = UIActivityIndicatorView(style: style)
         self.rounded = rounded
