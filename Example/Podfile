@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVLoadableImage_Tests' do
+  pod 'JVLoadableImage', :path => '../'
+  
+  
+end

@@ -1,0 +1,90 @@
+import UIKit
+import JVConstraintEdges
+
+/// Presents a loading view wich acts like a placeholder for an upcoming image.
+open class LoadableImage: UIView {
+    
+    private let indicator: UIActivityIndicatorView
+    private let image = UIButton(frame: .zero)
+    private let tapped: (() -> ())!
+    private let rounded: Bool
+    public private (set) var isLoading = true
+    
+    public init(style: UIActivityIndicatorView.Style, rounded: Bool, tapped: (() -> ())? = nil) {
+        indicator = UIActivityIndicatorView(style: style)
+        self.rounded = rounded
+        self.image.clipsToBounds = rounded
+        self.tapped = tapped
+        
+        super.init(frame: .zero)
+        
+        addImage()
+        addIndicator()
+    }
+    
+    public required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    /// Will show an image with an indicator to indicate a higher resolution photo is being downloaded
+    open func show(blurredImage: UIImage) {
+        self.image.setImage(blurredImage, for: .normal)
+        
+        self.image.alpha = 1
+        indicator.alpha = 1
+        isLoading = true
+        image.isUserInteractionEnabled = false
+    }
+    
+    open func show(image: UIImage) {
+        self.image.setImage(image, for: .normal)
+        
+        self.image.alpha = 1
+        indicator.alpha = 0
+        isLoading = false
+        image.isUserInteractionEnabled = true
+    }
+    
+    open func showIndicator() {
+        image.alpha = 0
+        indicator.alpha = 1
+        
+        // We have to do this every time the cell reappears.
+        indicator.startAnimating()
+        isLoading = true
+        image.isUserInteractionEnabled = false
+    }
+    
+    @objc private func _tapped() {
+        tapped!()
+    }
+    
+    private func addIndicator() {
+        indicator.fill(toSuperview: self)
+        
+        indicator.startAnimating()
+    }
+    
+    private func addImage() {
+        image.fill(toSuperview: self)
+        
+        image.imageView!.contentMode = .scaleAspectFit
+        image.isUserInteractionEnabled = tapped != nil
+        
+        guard image.isUserInteractionEnabled else { return }
+        
+        image.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
+    }
+    
+    open override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        guard rounded else {
+            return
+        }
+        
+        assert(image.bounds.height == image.bounds.width)
+        
+        image.layer.cornerRadius = image.bounds.height / 2
+    }
+}

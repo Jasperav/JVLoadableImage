@@ -1,0 +1,16 @@
+PODS:
+  - JVLoadableImage (0.1.0)
+
+DEPENDENCIES:
+  - JVLoadableImage (from `../`)
+
+EXTERNAL SOURCES:
+  JVLoadableImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVLoadableImage: 905d0a4cd6c66d6c13e9539a30dfdf7381e4d9f5
+
+PODFILE CHECKSUM: 024f11a775d24d49f0cf67a38f27c30db6998900
+
+COCOAPODS: 1.6.0.beta.1
