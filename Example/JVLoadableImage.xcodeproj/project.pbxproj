@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		0A0C71AD2A50C5A7F0691254 /* Pods-JVLoadableImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVLoadableImage_Tests.release.xcconfig"; path = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1363B6A1CEE6763DC4CAEE2C /* JVLoadableImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JVLoadableImage.podspec; path = ../JVLoadableImage.podspec; sourceTree = "<group>"; };
+		1363B6A1CEE6763DC4CAEE2C /* JVLoadableImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVLoadableImage.podspec; path = ../JVLoadableImage.podspec; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* JVLoadableImage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVLoadableImage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AE874DBDAC72E42EE5D37415 /* Pods-JVLoadableImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVLoadableImage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C081597619F6AEB75C0386B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CE31DB29319683B3BDF35719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C081597619F6AEB75C0386B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CE31DB29319683B3BDF35719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E6F437AE7E6BAA923927954B /* Pods_JVLoadableImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVLoadableImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				AE874DBDAC72E42EE5D37415 /* Pods-JVLoadableImage_Tests.debug.xcconfig */,
 				0A0C71AD2A50C5A7F0691254 /* Pods-JVLoadableImage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -202,13 +197,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JVConstraintEdges/JVConstraintEdges.framework",
+				"${BUILT_PRODUCTS_DIR}/JVContentType/JVContentType.framework",
+				"${BUILT_PRODUCTS_DIR}/JVGenericNotificationCenter/JVGenericNotificationCenter.framework",
 				"${BUILT_PRODUCTS_DIR}/JVLoadableImage/JVLoadableImage.framework",
+				"${BUILT_PRODUCTS_DIR}/JVSizeable/JVSizeable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVConstraintEdges.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVContentType.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVGenericNotificationCenter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVLoadableImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVSizeable.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -274,11 +277,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -320,10 +324,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -345,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JVLoadableImage_Example.app/JVLoadableImage_Example";
 			};
 			name = Debug;
@@ -363,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JVLoadableImage_Example.app/JVLoadableImage_Example";
 			};
 			name = Release;

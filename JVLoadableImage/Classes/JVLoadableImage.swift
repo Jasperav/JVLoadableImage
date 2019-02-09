@@ -1,25 +1,36 @@
 import UIKit
 import JVConstraintEdges
+import JVGenericNotificationCenter
 
 /// Presents a loading view wich acts like a placeholder for an upcoming image.
-open class LoadableImage: UIView {
+open class LoadableImage: UIView, NotificationCenterObserver {
+
+    public static var notificationName = Notification.Name.retrievedLoadableImage
+    public typealias T = NotificationCenterImageUserInfo
+    
+    public var selectorExecutor: NotificationCenterSelectorExecutor!
+    
+    // The identifier for the photo. Can later be used to set the image on if it is done loading.
+    public var identifier: Int64 = 0
+    
+    public private (set) var isLoading = true
     
     private let image = UIButton(frame: .zero)
     private let indicator: UIActivityIndicatorView
     private let tapped: (() -> ())!
     private let rounded: Bool
-    public private (set) var isLoading = true
     
-    // The identifier for the photo. Can later be used to set the image on if it is done loading.
-    public var identifier: Int64 = 0
-    
-    public init(style: UIActivityIndicatorView.Style, rounded: Bool, tapped: (() -> ())? = nil) {
+    public init(style: UIActivityIndicatorView.Style, rounded: Bool, registerNotificationCenter: Bool, tapped: (() -> ())? = nil) {
         indicator = UIActivityIndicatorView(style: style)
         self.rounded = rounded
         self.image.clipsToBounds = rounded
         self.tapped = tapped
         
         super.init(frame: .zero)
+        
+        if registerNotificationCenter {
+            register()
+        }
         
         addImage()
         addIndicator()
@@ -62,6 +73,24 @@ open class LoadableImage: UIView {
         image.contentVerticalAlignment = .fill
     }
     
+    open override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        guard rounded else {
+            return
+        }
+        
+        assert(image.bounds.height == image.bounds.width, "The width of the image isn't equal to the height of the image. This is illegal.")
+        
+        image.layer.cornerRadius = image.bounds.height / 2
+    }
+    
+    public func retrieved(observer: NotificationCenterImageUserInfo) {
+        guard identifier == observer.photoIdentifier else { return }
+        
+        show(image: observer.photo)
+    }
+    
     @objc private func _tapped() {
         tapped!()
     }
@@ -81,17 +110,5 @@ open class LoadableImage: UIView {
         guard image.isUserInteractionEnabled else { return }
         
         image.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
-    }
-    
-    open override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        guard rounded else {
-            return
-        }
-        
-        assert(image.bounds.height == image.bounds.width)
-        
-        image.layer.cornerRadius = image.bounds.height / 2
     }
 }

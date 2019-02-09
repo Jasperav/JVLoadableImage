@@ -1,16 +1,35 @@
 PODS:
-  - JVLoadableImage (0.1.0)
+  - JVConstraintEdges (0.2.8):
+    - JVContentType
+    - JVSizeable
+  - JVContentType (0.1.7)
+  - JVGenericNotificationCenter (0.1.1)
+  - JVLoadableImage (0.1.6):
+    - JVConstraintEdges
+    - JVGenericNotificationCenter
+  - JVSizeable (0.1.0)
 
 DEPENDENCIES:
   - JVLoadableImage (from `../`)
+
+SPEC REPOS:
+  "https://Jasperav@bitbucket.org/Jasperav/specs.git":
+    - JVConstraintEdges
+    - JVContentType
+    - JVGenericNotificationCenter
+    - JVSizeable
 
 EXTERNAL SOURCES:
   JVLoadableImage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVLoadableImage: 905d0a4cd6c66d6c13e9539a30dfdf7381e4d9f5
+  JVConstraintEdges: a51d03aa08bd6ed993c0837bdb247a5bd7446204
+  JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
+  JVGenericNotificationCenter: 631fed882ceac8e7cfb4bf77a53cb9d0899caeda
+  JVLoadableImage: 4b40fae286e75bd0a523dbf0ff9e4fac28bed4ec
+  JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
 
-PODFILE CHECKSUM: 024f11a775d24d49f0cf67a38f27c30db6998900
+PODFILE CHECKSUM: 4d6f2465e4c6fa6d26398df649bcdfc0bcf33d76
 
 COCOAPODS: 1.6.0.beta.1
