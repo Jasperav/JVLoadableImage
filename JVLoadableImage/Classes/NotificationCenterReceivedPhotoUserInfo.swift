@@ -1,9 +1,8 @@
 import JVGenericNotificationCenter
 
 public struct NotificationCenterImageUserInfo: NotificationCenterUserInfoMapper {
-    private enum Key: String {
-        case photoIdentifier, photo
-    }
+
+    public static var notificationName = Notification.Name.retrievedLoadableImage
     
     public let photoIdentifier: Int64
     public let photo: UIImage
@@ -23,5 +22,11 @@ public struct NotificationCenterImageUserInfo: NotificationCenterUserInfoMapper 
             Key.photoIdentifier.rawValue: photoIdentifier,
             Key.photo.rawValue: photo
         ]
+    }
+}
+
+private extension NotificationCenterImageUserInfo {
+    enum Key: String {
+        case photoIdentifier, photo
     }
 }

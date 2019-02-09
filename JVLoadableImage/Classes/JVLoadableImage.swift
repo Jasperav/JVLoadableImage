@@ -5,7 +5,6 @@ import JVGenericNotificationCenter
 /// Presents a loading view wich acts like a placeholder for an upcoming image.
 open class LoadableImage: UIView, NotificationCenterObserver {
 
-    public static var notificationName = Notification.Name.retrievedLoadableImage
     public typealias T = NotificationCenterImageUserInfo
     
     public var selectorExecutor: NotificationCenterSelectorExecutor!

@@ -13,7 +13,7 @@
 
 /* Begin PBXFileReference section */
 		0A0C71AD2A50C5A7F0691254 /* Pods-JVLoadableImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVLoadableImage_Tests.release.xcconfig"; path = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1363B6A1CEE6763DC4CAEE2C /* JVLoadableImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVLoadableImage.podspec; path = ../JVLoadableImage.podspec; sourceTree = "<group>"; };
+		1363B6A1CEE6763DC4CAEE2C /* JVLoadableImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVLoadableImage.podspec; path = ../JVLoadableImage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* JVLoadableImage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVLoadableImage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
