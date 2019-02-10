@@ -12,11 +12,12 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     // The identifier for the photo. Can later be used to set the image on if it is done loading.
     public var identifier: Int64 = 0
     
+    public var tapped: (() -> ())!
+    
     public private (set) var isLoading = true
     
     private let image = UIButton(frame: .zero)
     private let indicator: UIActivityIndicatorView
-    private let tapped: (() -> ())!
     private let rounded: Bool
     
     public init(style: UIActivityIndicatorView.Style, rounded: Bool, registerNotificationCenter: Bool = true, tapped: (() -> ())? = nil) {
