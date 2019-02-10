@@ -20,7 +20,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     private let indicator: UIActivityIndicatorView
     private let rounded: Bool
     
-    public init(style: UIActivityIndicatorView.Style, rounded: Bool, registerNotificationCenter: Bool = true, tapped: (() -> ())? = nil) {
+    public init(style: UIActivityIndicatorView.Style = .gray, rounded: Bool, registerNotificationCenter: Bool = true, tapped: (() -> ())? = nil) {
         indicator = UIActivityIndicatorView(style: style)
         self.rounded = rounded
         self.image.clipsToBounds = rounded
