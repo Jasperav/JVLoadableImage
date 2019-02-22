@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JVLoadableImage'
-  s.version          = '0.2.2'
+  s.version          = '0.2.4'
   s.summary          = 'A short description of JVLoadableImage.'
 
 # This description is used to generate tags and improve search results.
@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'JVConstraintEdges'
 s.dependency 'JVGenericNotificationCenter'
+s.dependency 'JVUIButtonExtensions'
 end

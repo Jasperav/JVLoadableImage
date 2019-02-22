@@ -1,6 +1,7 @@
 import UIKit
 import JVConstraintEdges
 import JVGenericNotificationCenter
+import JVUIButtonExtensions
 
 /// Presents a loading view wich acts like a placeholder for an upcoming image.
 open class LoadableImage: UIView, NotificationCenterObserver {
@@ -108,14 +109,5 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         guard image.isUserInteractionEnabled else { return }
         
         image.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
-    }
-}
-
-public extension UIButton {
-    func stretchImage() {
-        imageView!.contentMode = .scaleAspectFill
-        
-        contentHorizontalAlignment = .fill
-        contentVerticalAlignment = .fill
     }
 }
