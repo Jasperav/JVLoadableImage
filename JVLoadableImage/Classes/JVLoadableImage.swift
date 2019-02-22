@@ -68,9 +68,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     }
     
     public func stretchImage() {
-        image.imageView!.contentMode = .scaleAspectFill
-        image.contentHorizontalAlignment = .fill
-        image.contentVerticalAlignment = .fill
+        image.stretchImage()
     }
     
     open override func layoutSubviews() {
@@ -110,5 +108,14 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         guard image.isUserInteractionEnabled else { return }
         
         image.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
+    }
+}
+
+public extension UIButton {
+    func stretchImage() {
+        imageView!.contentMode = .scaleAspectFill
+        
+        contentHorizontalAlignment = .fill
+        contentVerticalAlignment = .fill
     }
 }
