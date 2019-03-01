@@ -8,6 +8,8 @@ open class LoadableImage: UIView, NotificationCenterObserver {
 
     public typealias T = NotificationCenterImageUserInfo
     
+    public private (set) var isLoading = true
+    
     public var selectorExecutor: NotificationCenterSelectorExecutor!
     
     // The identifier for the photo. Can later be used to set the image on if it is done loading.
@@ -15,13 +17,15 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     
     public var tapped: (() -> ())!
     
-    public private (set) var isLoading = true
-    
     private let image = UIButton(frame: .zero)
     private let indicator: UIActivityIndicatorView
     private let rounded: Bool
     
-    public init(style: UIActivityIndicatorView.Style = .gray, rounded: Bool, registerNotificationCenter: Bool = true, tapped: (() -> ())? = nil) {
+    public init(style: UIActivityIndicatorView.Style = .gray,
+                rounded: Bool,
+                registerNotificationCenter: Bool = true,
+                tapped: (() -> ())? = nil,
+                isUserInteractionEnabled: Bool = true) {
         indicator = UIActivityIndicatorView(style: style)
         self.rounded = rounded
         self.image.clipsToBounds = rounded
@@ -29,11 +33,13 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         
         super.init(frame: .zero)
         
+        assert(tapped != nil ? isUserInteractionEnabled : true)
+        
         if registerNotificationCenter {
             register()
         }
         
-        addImage()
+        addImage(isUserInteractionEnabled: isUserInteractionEnabled)
         addIndicator()
     }
     
@@ -100,11 +106,11 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         indicator.startAnimating()
     }
     
-    private func addImage() {
+    private func addImage(isUserInteractionEnabled: Bool) {
         image.fill(toSuperview: self)
         
         image.imageView!.contentMode = .scaleAspectFit
-        image.isUserInteractionEnabled = tapped != nil
+        image.isUserInteractionEnabled = isUserInteractionEnabled
         
         guard image.isUserInteractionEnabled else { return }
         

@@ -1,10 +1,10 @@
 PODS:
-  - JVConstraintEdges (0.2.9):
+  - JVConstraintEdges (0.3.1):
     - JVContentType
     - JVSizeable
   - JVContentType (0.1.7)
   - JVGenericNotificationCenter (0.1.2)
-  - JVLoadableImage (0.2.3):
+  - JVLoadableImage (0.2.4):
     - JVConstraintEdges
     - JVGenericNotificationCenter
     - JVUIButtonExtensions
@@ -27,13 +27,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVConstraintEdges: 56f7bc999b9e41e5888ff41449a000c6ab33e829
+  JVConstraintEdges: a92172856b464d8666fb72f59d718e140f74591c
   JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
   JVGenericNotificationCenter: 5e6b2a2774954d6bed9389d79984bac77f705ff7
-  JVLoadableImage: c9fbd65ee1171e20b6a2f98a50d25869cbb5e88a
+  JVLoadableImage: 61463e4c4b72ecab95dd4feff09918dd4d93e7bf
   JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
   JVUIButtonExtensions: dd2180c283cc2fde209aeb362f6169a2e0994535
 
 PODFILE CHECKSUM: 4d6f2465e4c6fa6d26398df649bcdfc0bcf33d76
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.6.1
