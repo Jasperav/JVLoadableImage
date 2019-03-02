@@ -112,7 +112,12 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         image.imageView!.contentMode = .scaleAspectFit
         image.isUserInteractionEnabled = isUserInteractionEnabled
         
-        guard image.isUserInteractionEnabled else { return }
+        guard image.isUserInteractionEnabled else {
+            // Without this, the image sometimes gets enabled again, dunno why...
+            isUserInteractionEnabled = false
+            
+            return
+        }
         
         image.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
     }
