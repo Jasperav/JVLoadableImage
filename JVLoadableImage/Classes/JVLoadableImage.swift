@@ -16,10 +16,12 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     public var identifier: Int64 = 0
     
     public var tapped: (() -> ())!
+    public var imageView: UIImageView!
     
     private let image = UIButton(frame: .zero)
     private let indicator: UIActivityIndicatorView
     private let rounded: Bool
+
     
     public init(style: UIActivityIndicatorView.Style = .gray,
                 rounded: Bool,
@@ -32,6 +34,8 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         self.tapped = tapped
         
         super.init(frame: .zero)
+        
+        imageView = image.imageView!
         
         assert(tapped != nil ? isUserInteractionEnabled : true)
         
