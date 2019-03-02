@@ -114,7 +114,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         
         guard image.isUserInteractionEnabled else {
             // Without this, the image sometimes gets enabled again, dunno why...
-            isUserInteractionEnabled = false
+            self.isUserInteractionEnabled = false
             
             return
         }
