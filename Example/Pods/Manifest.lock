@@ -3,8 +3,10 @@ PODS:
     - JVContentType
     - JVSizeable
   - JVContentType (0.1.7)
-  - JVGenericNotificationCenter (0.1.2)
-  - JVLoadableImage (0.2.4):
+  - JVGenericNotificationCenter (0.1.3):
+    - JVJSONCodable
+  - JVJSONCodable (0.1.1)
+  - JVLoadableImage (0.2.8):
     - JVConstraintEdges
     - JVGenericNotificationCenter
     - JVUIButtonExtensions
@@ -19,6 +21,7 @@ SPEC REPOS:
     - JVConstraintEdges
     - JVContentType
     - JVGenericNotificationCenter
+    - JVJSONCodable
     - JVSizeable
     - JVUIButtonExtensions
 
@@ -29,8 +32,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   JVConstraintEdges: a92172856b464d8666fb72f59d718e140f74591c
   JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
-  JVGenericNotificationCenter: 5e6b2a2774954d6bed9389d79984bac77f705ff7
-  JVLoadableImage: 61463e4c4b72ecab95dd4feff09918dd4d93e7bf
+  JVGenericNotificationCenter: c66ef91393be834c525b5c3723ac8c021fc8af3b
+  JVJSONCodable: f7802593adaccf981224f606059016b5c7edabca
+  JVLoadableImage: faf31613e98d7c78f735075f76200350c5f7c082
   JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
   JVUIButtonExtensions: dd2180c283cc2fde209aeb362f6169a2e0994535
 

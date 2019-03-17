@@ -6,7 +6,7 @@ import JVUIButtonExtensions
 /// Presents a loading view wich acts like a placeholder for an upcoming image.
 open class LoadableImage: UIView, NotificationCenterObserver {
 
-    public typealias T = NotificationCenterImageUserInfo
+    public typealias MappedType = NotificationCenterImageSender
     
     public private (set) var isLoading = true
     
@@ -94,10 +94,10 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         image.layer.cornerRadius = image.bounds.height / 2
     }
     
-    public func retrieved(observer: NotificationCenterImageUserInfo) {
+    public func retrieved(observer: NotificationCenterImageSender) {
         guard identifier == observer.photoIdentifier else { return }
         
-        show(image: observer.photo)
+        show(image: UIImage(data: observer.photo)!)
     }
     
     @objc private func _tapped() {

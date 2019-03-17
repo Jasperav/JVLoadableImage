@@ -1,32 +1,14 @@
 import JVGenericNotificationCenter
 
-public struct NotificationCenterImageUserInfo: NotificationCenterUserInfoMapper {
+public struct NotificationCenterImageSender: NotificationCenterSendable, Codable {
 
     public static var notificationName = Notification.Name.retrievedLoadableImage
     
     public let photoIdentifier: Int64
-    public let photo: UIImage
+    public let photo: Data
     
     public init(photoIdentifier: Int64, photo: UIImage) {
         self.photoIdentifier = photoIdentifier
-        self.photo = photo
-    }
-    
-    public static func mapFrom(userInfo: NotificationCenterUserInfo) -> NotificationCenterImageUserInfo {
-        return NotificationCenterImageUserInfo(photoIdentifier: userInfo[Key.photoIdentifier.rawValue] as! Int64,
-                                                       photo: userInfo[Key.photo.rawValue] as! UIImage)
-    }
-    
-    public func map() -> NotificationCenterUserInfo {
-        return [
-            Key.photoIdentifier.rawValue: photoIdentifier,
-            Key.photo.rawValue: photo
-        ]
-    }
-}
-
-private extension NotificationCenterImageUserInfo {
-    enum Key: String {
-        case photoIdentifier, photo
+        self.photo = photo.pngData()!
     }
 }

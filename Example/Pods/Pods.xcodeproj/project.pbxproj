@@ -7,52 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		027BE10545A4671C90DAFFF263FC7455 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC237F52E3D7A7C480D3D6301F077301 /* ContentType.swift */; };
+		027BE10545A4671C90DAFFF263FC7455 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF34DE2384930E713BA52F5078D3AF4F /* ContentType.swift */; };
 		061660A8851C480F9238921190925070 /* JVLoadableImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC621F1267865FBEB715134977794A0 /* JVLoadableImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C43DCAD057F48ABAC24A22FA451CAC /* JVJSONCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D5DE68A287AF88EDC81A8000088A4 /* JVJSONCodable-dummy.m */; };
 		0775187E82FB87E93ECB7B3E8A4521F6 /* NotificationNameExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD4E0D8BA4D87809986D407A07687E /* NotificationNameExtensions.swift */; };
 		0BBF62FF27FA89361B642E9BE48225C7 /* JVLoadableImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723CBF5257191EFF907E62A479E401AA /* JVLoadableImage-dummy.m */; };
-		1B8ECC366A497B0D4C11C4B050EEDFC4 /* JVUIButtonExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97936BF336077FDB5EF141CCF8937B4B /* JVUIButtonExtensions.framework */; };
-		21CE5144541A429F2B48467B49BB66F6 /* JVUIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0134DC762648CB4D8A812E074B9B47BA /* JVUIButtonExtensions.swift */; };
-		29065DEE3D28E909F315FACB8AC1A63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		2BE982BC7FA5555BAC9020AEDDD3F288 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A9ED8E7F83D4B0A1FFD71DC45A357 /* StringExtensions.swift */; };
-		383545496FF689D07DB63EF714C0AAA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		3D439A8C46DDE2732A11D879FA903DA6 /* JVSizeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E67AC4697D01FBEF06A839A3F443C45 /* JVSizeable-dummy.m */; };
-		3F9BCE694C2CBC37E7D151429A0C3004 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2378AD8A5E9083547EA8BAFD9C87A3 /* Extensions.swift */; };
-		4DA2F76205DA439FB77C9CC41B5890D3 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F9E9CD948734C4DDD19532F924E384 /* ContentTypeInitializable.swift */; };
-		4DAB8B3444AA1E00E0E7E7C1E1E062BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		5D2FCBA198097E3D1D7E43ED40BF6227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		69ACE2A6E947D073ACCBE28219A8AEA8 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5600309AB364282D066266BCF1927AB1 /* CollectionExtensions.swift */; };
-		788A7A9B51D9476482DC3BC01DB44A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		7B221F8818DEACD7CDF0B90DEF96C015 /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15D7978951A24DF520B9879C87F473B /* JVSizeable.framework */; };
-		7F6A9070E067399AFA7C582C0E854E03 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516BB1C70D00649E902F1AAC0B347AF /* Copyable.swift */; };
-		81294113734E14488FCE6FC410E97061 /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D70EAF5C7B5BEBFDBE379A75D19644 /* Sizeable.swift */; };
-		85A820998A2B6064E6F4C8CDF36280BB /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F38CB60603F7F6A3618D0E387E7D3A /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85EA04BAA77C7690EF837CE04F364755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		8D45205F4AC1726F4154DEB6D72B6C1B /* JVGenericNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4576DF6D5FD957B5408376D0CE142 /* JVGenericNotificationCenter-dummy.m */; };
-		92D94D1679852C6FAD27BB0C2C84A69C /* JVGenericNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E6B99075308D1621392CD6505491AF /* JVGenericNotificationCenter.framework */; };
-		93D7D080C626879136810F4936A7580F /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F1DF9FD7B65EE7A81A93BF24AE3C96 /* ContentTypeConstraintEdges.swift */; };
-		9595040F08F638FA06C55D083875A4FB /* Pods-JVLoadableImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC970EAF06653F5AD4525039407BE64 /* Pods-JVLoadableImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9926387B233EF0E8C096F61803516430 /* JVConstraintEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4484B0D2209D1B54AA787535ADACB0DF /* JVConstraintEdges-dummy.m */; };
-		A25DA0A7A634F36CE5B4FD8949AA8772 /* JVConstraintEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C88584D53CBAA50EFCBABF709E483D0 /* JVConstraintEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B8ECC366A497B0D4C11C4B050EEDFC4 /* JVUIButtonExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FF66F051A48FC39648D6B1DC5D704A /* JVUIButtonExtensions.framework */; };
+		1D0EBF14CA6E34597BC3ED148752AB62 /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E216EC24DC1F6E2A0861CDF4B265563B /* JSONCodable.swift */; };
+		21CE5144541A429F2B48467B49BB66F6 /* JVUIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E15E954F4C8A8959A463F9A95E4CB /* JVUIButtonExtensions.swift */; };
+		29168245E6C7C109609FBCCA09C0CFB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		2BE982BC7FA5555BAC9020AEDDD3F288 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8F446DDF989767AFC05D9466B8EA7 /* StringExtensions.swift */; };
+		2FC00CEDEE8D8A219756F9B0C1A89B52 /* JVJSONCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569B1A94CD6E40684DA0888343FCDE0D /* JVJSONCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383545496FF689D07DB63EF714C0AAA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		3D439A8C46DDE2732A11D879FA903DA6 /* JVSizeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC3CF735EAD33B450FE830800257080 /* JVSizeable-dummy.m */; };
+		4DA2F76205DA439FB77C9CC41B5890D3 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9977C66B4325B3EC9EC9BF008EE96 /* ContentTypeInitializable.swift */; };
+		4DAB8B3444AA1E00E0E7E7C1E1E062BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		5A3753C0722BEF89377F3B8F5F3AADCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		5CC91BF61AB915F047F89C6362DDA1C9 /* JVGenericNotificationCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7852CE8FB828E5C37639370279AAA /* JVGenericNotificationCenter-dummy.m */; };
+		5D2FCBA198097E3D1D7E43ED40BF6227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		5D593089A78A63116A7D6B99FE3214D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		690D276F261560A2AF674FE433AAB5EE /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CB663EE494CBF41DA1F087CA1CEC1 /* Observer.swift */; };
+		69ACE2A6E947D073ACCBE28219A8AEA8 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00732D490D5B0DD8036C54ED926917 /* CollectionExtensions.swift */; };
+		76B6CDC9F3EE073DB0F6A2C004690BCA /* JVJSONCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6023D8301500157C18734B8D1ED2CF77 /* JVJSONCodable.framework */; };
+		7AF00A1AF2D5D42EDC00B18DC4CA5BB9 /* JVGenericNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187F0ABE25614E86A3F43A60A9ABEA5C /* JVGenericNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B221F8818DEACD7CDF0B90DEF96C015 /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9C2DD1F953AAACA0467D470C151524 /* JVSizeable.framework */; };
+		7F6A9070E067399AFA7C582C0E854E03 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E129B5C63DBC55ED8150BBE5B96AF /* Copyable.swift */; };
+		81294113734E14488FCE6FC410E97061 /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66356317C9EC3BBDD8927E146CE565 /* Sizeable.swift */; };
+		85A820998A2B6064E6F4C8CDF36280BB /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADED877E24C0071912064A20AD8B5EC8 /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EA04BAA77C7690EF837CE04F364755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		8711C3B8F595F25D75DB0158DB5FAE3A /* Pods-JVLoadableImage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC970EAF06653F5AD4525039407BE64 /* Pods-JVLoadableImage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92D94D1679852C6FAD27BB0C2C84A69C /* JVGenericNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347F7BD344E5366A2B4FE31421A81CC2 /* JVGenericNotificationCenter.framework */; };
+		93D7D080C626879136810F4936A7580F /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001140912476E853BFAB7EA18585FB21 /* ContentTypeConstraintEdges.swift */; };
+		9926387B233EF0E8C096F61803516430 /* JVConstraintEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD79A283CF864703A624F1B4E1D9300 /* JVConstraintEdges-dummy.m */; };
+		A25DA0A7A634F36CE5B4FD8949AA8772 /* JVConstraintEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7957EE6E29DD83EFF1A6EFD20432ADBC /* JVConstraintEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5634CEDED681207EAFC1C1AB266C13E /* NotificationCenterReceivedPhotoUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2096BABA138028CBBC320D2A11FF914 /* NotificationCenterReceivedPhotoUserInfo.swift */; };
-		AEE3FB46F1AD996E487A95661C828E6E /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB7AA4D59798E494D666E8CC0E5E082 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B037D7DA2E2FF4AD8404618A29EFDF1A /* ModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A5E7A42285DBE01BCA5118F7D0421 /* ModelCreator.swift */; };
-		C69247FB7A86D52BBBABFD05AFE27DF8 /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6211DDEE0D935C69FA3E8A611B89FD /* UIViewFillExtension.swift */; };
-		CB5AE99558AA26DB37FF267D81917630 /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958BCE51EFD0B7D086E24E65BFB3E654 /* JVConstraintEdges.framework */; };
-		CE2034D9B7968A8EB9DE57AC4F93F4F4 /* JVUIButtonExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 611129F63B0693B0D99CFD6D1A078E76 /* JVUIButtonExtensions-dummy.m */; };
-		D4DB6F347E2C955E2DB08012357B0D80 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DD50079DDD5E10068A0F73DDDF2B69 /* Anchor.swift */; };
-		D5AC900D034ACA7E047AC20631790941 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A059B8E4EF63092CD18CA1E712C7314 /* ContentTypeGroupInitializable.swift */; };
-		DBD2D4867E9ABB27D7C93BFD4DC3D5CE /* ConstraintAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB58DCB4339171AA1B55A14027A981E /* ConstraintAnchor.swift */; };
-		DD532B48D78D1672D5448227A2267A82 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CB3504787C7DE7116015C88335E42 /* CGFloatExtensions.swift */; };
+		AEE3FB46F1AD996E487A95661C828E6E /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2BC8B366035C4B2B969DBB9692D519 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B037D7DA2E2FF4AD8404618A29EFDF1A /* ModelCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373CD514BAE45EA85DA1B09E44BE2532 /* ModelCreator.swift */; };
+		C69247FB7A86D52BBBABFD05AFE27DF8 /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835DD581DCE0DB35DCBD2F52A8CB193 /* UIViewFillExtension.swift */; };
+		CB5AE99558AA26DB37FF267D81917630 /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3616834B48A1C1EC0F78F86F30C90 /* JVConstraintEdges.framework */; };
+		CE2034D9B7968A8EB9DE57AC4F93F4F4 /* JVUIButtonExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072DE84AE1E7910F874F73990792DC6 /* JVUIButtonExtensions-dummy.m */; };
+		CFB6DEA52BFA63BD0CF5232AAD9610FD /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F797DD9CE20D138BBD3FDCD94A5E7A9 /* Mapper.swift */; };
+		D4DB6F347E2C955E2DB08012357B0D80 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB379545D94F9674386CD945975F11 /* Anchor.swift */; };
+		D5AC900D034ACA7E047AC20631790941 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7909255A804649092CCF673FCEF1031E /* ContentTypeGroupInitializable.swift */; };
+		DBD2D4867E9ABB27D7C93BFD4DC3D5CE /* ConstraintAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF2F3D017F2F295F9CF5C2B6FF6DFC /* ConstraintAnchor.swift */; };
+		DD532B48D78D1672D5448227A2267A82 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471868F8330E634B0C43A003D55A7190 /* CGFloatExtensions.swift */; };
 		E0473C6D3FF0C26F31F4A345664A69D6 /* JVLoadableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A5302F5B84F3CD5004A08D4B4A00C /* JVLoadableImage.swift */; };
-		E19C377654508E0C02BAB36809624BF7 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB31E9328D0C5E6B3EEA780A7D4089A /* ContentTypeGroup.swift */; };
-		E1BB636D9D27984BBDFCA92F1BB3AFBF /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC3F3A4C991C7E8A93D418351F25C00 /* JVContentType.framework */; };
-		E2FF61972AA6C5C8D4127C48572CF880 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6798591E52CBAC58F330A3B9AF82 /* JVContentType-dummy.m */; };
-		E514E7FD208081A779062E889CD9488F /* JVUIButtonExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39530331A3D3DCB6812A8F328C3F05A2 /* JVUIButtonExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E988215F900BCF072B497C1641FDA0AE /* Pods-JVLoadableImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B197F4472247707B88BF99E32CE3CFA8 /* Pods-JVLoadableImage_Tests-dummy.m */; };
-		ECB152D76A89D392B552FD317ADA44D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */; };
-		F2FB82FAFB9810D770ACBA161A3FCFE7 /* JVGenericNotificationCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 177C2DC5447B6A7355FC461BC9E464A9 /* JVGenericNotificationCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCD9C4ED71A819A9C8A64638B586CE0B /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A5232A5866B75341FC235377C090A /* ConstraintEdges.swift */; };
+		E19C377654508E0C02BAB36809624BF7 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E20902FA224F5A61CA62B022F66917 /* ContentTypeGroup.swift */; };
+		E1BB636D9D27984BBDFCA92F1BB3AFBF /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3632DE1E0DB44AD8D187DBB4D69E99F7 /* JVContentType.framework */; };
+		E2FF61972AA6C5C8D4127C48572CF880 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58916F377285AE9D8623D72D3C7FC9EF /* JVContentType-dummy.m */; };
+		E514E7FD208081A779062E889CD9488F /* JVUIButtonExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5809B04CEA0D4E4F68E651AC426EAB09 /* JVUIButtonExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB152D76A89D392B552FD317ADA44D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */; };
+		FA2E3691A48D8A8CECD6F82581AC318E /* Pods-JVLoadableImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B197F4472247707B88BF99E32CE3CFA8 /* Pods-JVLoadableImage_Tests-dummy.m */; };
+		FCD9C4ED71A819A9C8A64638B586CE0B /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35D7F56C39F8CC7FAA1E0A7482CE09F /* ConstraintEdges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +69,26 @@
 			remoteGlobalIDString = A27A221FE9850D7845890FF2562973D5;
 			remoteInfo = JVUIButtonExtensions;
 		};
-		3ABD88E21E0420AAD209A81D95720312 /* PBXContainerItemProxy */ = {
+		132D32ABBED92C4EF940A54E69FFC639 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8F31B948899BCA67DD2078010378AFBC;
 			remoteInfo = JVSizeable;
+		};
+		2FED45F43FBB3284989B0D08A5F480C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60A8CA69C4722A2E22B9936A41B5DF43;
+			remoteInfo = JVConstraintEdges;
+		};
+		3131BD9DB3B85F906515988683454F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96DCA8A63D04BBB8DCBE2B0A1D0CEB0D;
+			remoteInfo = JVJSONCodable;
 		};
 		4831C5B7F952B922CEC7472141A2C1CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -77,42 +97,28 @@
 			remoteGlobalIDString = 8F31B948899BCA67DD2078010378AFBC;
 			remoteInfo = JVSizeable;
 		};
-		72C0798D495A742D18060A7E571F90E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60A8CA69C4722A2E22B9936A41B5DF43;
-			remoteInfo = JVConstraintEdges;
-		};
-		883BB0E4144F8917628FEE6F43961F7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A27A221FE9850D7845890FF2562973D5;
-			remoteInfo = JVUIButtonExtensions;
-		};
-		9C8376D7B0794F9CB477F5640B905500 /* PBXContainerItemProxy */ = {
+		5493E85D73BAFECA6E432A5B7BAAE8E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9BB1C7FF1E93ABAAF72E627FBD99E9FB;
 			remoteInfo = JVContentType;
 		};
-		B7DE626F72EB7F3785C17D28969ED662 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 818B90D942CC74F543D7382AB2A70CCC;
-			remoteInfo = JVGenericNotificationCenter;
-		};
 		BC0134EEA0E3AFBCB1DA115E6E9B7511 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 818B90D942CC74F543D7382AB2A70CCC;
+			remoteGlobalIDString = B5D984F56FF34C050DE2032450E19389;
 			remoteInfo = JVGenericNotificationCenter;
 		};
-		C628F65C58B130BD5CB5178CCB5769B1 /* PBXContainerItemProxy */ = {
+		DA3A9AEA0BDE92EB1429893283F72448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D984F56FF34C050DE2032450E19389;
+			remoteInfo = JVGenericNotificationCenter;
+		};
+		E4D71BF72C4167D65E6BA81DAC952493 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -133,91 +139,115 @@
 			remoteGlobalIDString = 9BB1C7FF1E93ABAAF72E627FBD99E9FB;
 			remoteInfo = JVContentType;
 		};
+		F744815FFE991DB5387257CDE7C86AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27A221FE9850D7845890FF2562973D5;
+			remoteInfo = JVUIButtonExtensions;
+		};
+		F9E7F3C1DEC7F2F8E4C774911C20968C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96DCA8A63D04BBB8DCBE2B0A1D0CEB0D;
+			remoteInfo = JVJSONCodable;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0134DC762648CB4D8A812E074B9B47BA /* JVUIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVUIButtonExtensions.swift; path = JVUIButtonExtensions/Classes/JVUIButtonExtensions.swift; sourceTree = "<group>"; };
-		089FEEBFE7B0D3875E96381E784804B4 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
-		08F38CB60603F7F6A3618D0E387E7D3A /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
-		0A059B8E4EF63092CD18CA1E712C7314 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
-		0A2378AD8A5E9083547EA8BAFD9C87A3 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = JVGenericNotificationCenter/Classes/Extensions.swift; sourceTree = "<group>"; };
-		0C695711342163E5A6510D64EAD197EA /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		177C2DC5447B6A7355FC461BC9E464A9 /* JVGenericNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVGenericNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
-		1C6A5232A5866B75341FC235377C090A /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
+		001140912476E853BFAB7EA18585FB21 /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
+		011E129B5C63DBC55ED8150BBE5B96AF /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
+		045E04DE3C3779C7F68CF9EE54BEA676 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		06C8F446DDF989767AFC05D9466B8EA7 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVConstraintEdges/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		093F9E44F0046E305CE4576D00C9DFAB /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
+		0A0D095C43CAE44C4DAF118266784E9F /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
+		0E4683B1DF090A550E6A872DF63CCEC7 /* JVJSONCodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVJSONCodable-prefix.pch"; sourceTree = "<group>"; };
+		187F0ABE25614E86A3F43A60A9ABEA5C /* JVGenericNotificationCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVGenericNotificationCenter-umbrella.h"; sourceTree = "<group>"; };
+		1D01CE6B5CA0826E3722F6863A5442FD /* JVGenericNotificationCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVGenericNotificationCenter.modulemap; sourceTree = "<group>"; };
 		1D5D9157DB506F04203D39431740A8DC /* Pods-JVLoadableImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVLoadableImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		26F1DF9FD7B65EE7A81A93BF24AE3C96 /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
-		27E10183E9A215BF1C8D26F707A704F4 /* JVGenericNotificationCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVGenericNotificationCenter-Info.plist"; sourceTree = "<group>"; };
-		2A9D8CD8BD8DFFDC0662FB33F5508E6D /* JVGenericNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVGenericNotificationCenter.framework; path = JVGenericNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203E55257E348D11A0654C88143DBB85 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D23DD04C76CB992F905F2844B94961 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
+		263CB663EE494CBF41DA1F087CA1CEC1 /* Observer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = JVGenericNotificationCenter/Classes/Observer.swift; sourceTree = "<group>"; };
+		2A42A46F2FD94B32996BFE5A6840D119 /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
+		2AF61E69E7B10E761117D65EB9C9EB36 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		2D1139FDA644ACEDE10FB27F5ECA412F /* Pods-JVLoadableImage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVLoadableImage_Tests-Info.plist"; sourceTree = "<group>"; };
-		2E67AC4697D01FBEF06A839A3F443C45 /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
-		32089F8DD12F43AEF2252B33170F9FB7 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		32FB8EAA0A2FB3BD451A998E5C2A655C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		384F8C13BC074959EBE8FF3F36AB07A3 /* JVUIButtonExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVUIButtonExtensions.modulemap; sourceTree = "<group>"; };
-		39530331A3D3DCB6812A8F328C3F05A2 /* JVUIButtonExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIButtonExtensions-umbrella.h"; sourceTree = "<group>"; };
-		441D2A3565C6EADD09679FFEE850284A /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
-		4484B0D2209D1B54AA787535ADACB0DF /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
-		4B8CB3504787C7DE7116015C88335E42 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
-		4C88584D53CBAA50EFCBABF709E483D0 /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
+		346E15E954F4C8A8959A463F9A95E4CB /* JVUIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVUIButtonExtensions.swift; path = JVUIButtonExtensions/Classes/JVUIButtonExtensions.swift; sourceTree = "<group>"; };
+		347F7BD344E5366A2B4FE31421A81CC2 /* JVGenericNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGenericNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3632DE1E0DB44AD8D187DBB4D69E99F7 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FF66F051A48FC39648D6B1DC5D704A /* JVUIButtonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVUIButtonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373CD514BAE45EA85DA1B09E44BE2532 /* ModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelCreator.swift; path = JVConstraintEdges/Classes/ModelCreator.swift; sourceTree = "<group>"; };
+		3945CE93EB71A32C77DBD3213D235183 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFA601325A422A4E459F996ECED05CA /* JVGenericNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVGenericNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
+		3D00732D490D5B0DD8036C54ED926917 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
+		3FCB379545D94F9674386CD945975F11 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
+		447C5B6E50F8B5755CE6C99FB93C825B /* JVLoadableImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVLoadableImage.framework; path = JVLoadableImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		471868F8330E634B0C43A003D55A7190 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		49F5ADB1C861F8D95856A425FF407718 /* JVUIButtonExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVUIButtonExtensions.xcconfig; sourceTree = "<group>"; };
+		4F9C2DD1F953AAACA0467D470C151524 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		514B172DD8BF83674FA8CD383CA01C64 /* Pods-JVLoadableImage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVLoadableImage_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		53D7C9DB189979EB6A0808DE3C8DA634 /* JVUIButtonExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVUIButtonExtensions-Info.plist"; sourceTree = "<group>"; };
-		55CE2F303D9D13299E3B53E00CA0A837 /* JVGenericNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVGenericNotificationCenter.xcconfig; sourceTree = "<group>"; };
-		5600309AB364282D066266BCF1927AB1 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
-		611129F63B0693B0D99CFD6D1A078E76 /* JVUIButtonExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVUIButtonExtensions-dummy.m"; sourceTree = "<group>"; };
-		62F41117EB5A3123DBBEFECFF5C761E9 /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
-		669F3807C3B2629BF37F43B00BE08025 /* JVGenericNotificationCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVGenericNotificationCenter.modulemap; sourceTree = "<group>"; };
-		67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68CFD29C800B4F801F4EE925EC876208 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
-		6A1A5E7A42285DBE01BCA5118F7D0421 /* ModelCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelCreator.swift; path = JVConstraintEdges/Classes/ModelCreator.swift; sourceTree = "<group>"; };
-		6DB31E9328D0C5E6B3EEA780A7D4089A /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		5165334D348DC6E18DE772E9E21852D4 /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
+		535C3F81068D75974A3F8B3C8B491008 /* JVGenericNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVGenericNotificationCenter.framework; path = JVGenericNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569B1A94CD6E40684DA0888343FCDE0D /* JVJSONCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVJSONCodable-umbrella.h"; sourceTree = "<group>"; };
+		5809B04CEA0D4E4F68E651AC426EAB09 /* JVUIButtonExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIButtonExtensions-umbrella.h"; sourceTree = "<group>"; };
+		58916F377285AE9D8623D72D3C7FC9EF /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
+		5F41ECA48E70683F19A7139B5E29C8B8 /* Pods_JVLoadableImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVLoadableImage_Tests.framework; path = "Pods-JVLoadableImage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6023D8301500157C18734B8D1ED2CF77 /* JVJSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVJSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6072DE84AE1E7910F874F73990792DC6 /* JVUIButtonExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVUIButtonExtensions-dummy.m"; sourceTree = "<group>"; };
+		6C55A6C66449F578020ED6437979A156 /* JVJSONCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVJSONCodable.framework; path = JVJSONCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDE1009A16955378FC37A4291737F99 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
+		6F797DD9CE20D138BBD3FDCD94A5E7A9 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = JVGenericNotificationCenter/Classes/Mapper.swift; sourceTree = "<group>"; };
+		70465510CD94078587BCF782B556DFCC /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
 		723CBF5257191EFF907E62A479E401AA /* JVLoadableImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVLoadableImage-dummy.m"; sourceTree = "<group>"; };
 		7668D0FF6A07517730B7C889421BE08B /* Pods-JVLoadableImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVLoadableImage_Tests.modulemap"; sourceTree = "<group>"; };
-		781C36161AD21EB1643F4843EA3DD475 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
-		7BAECB99C2A11F764D2BE199D350286A /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7909255A804649092CCF673FCEF1031E /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
+		7957EE6E29DD83EFF1A6EFD20432ADBC /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
+		7970FC4C7995BB215ED8BA3F1BFE0000 /* JVJSONCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVJSONCodable.modulemap; sourceTree = "<group>"; };
 		849A5302F5B84F3CD5004A08D4B4A00C /* JVLoadableImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLoadableImage.swift; path = JVLoadableImage/Classes/JVLoadableImage.swift; sourceTree = "<group>"; };
+		85C45EAADA581F2C7C41E0123B96F994 /* JVJSONCodable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVJSONCodable.xcconfig; sourceTree = "<group>"; };
+		8835DD581DCE0DB35DCBD2F52A8CB193 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
+		8BC3CF735EAD33B450FE830800257080 /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
+		8BD79A283CF864703A624F1B4E1D9300 /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
 		8CDD4E0D8BA4D87809986D407A07687E /* NotificationNameExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationNameExtensions.swift; path = JVLoadableImage/Classes/NotificationNameExtensions.swift; sourceTree = "<group>"; };
 		8EC621F1267865FBEB715134977794A0 /* JVLoadableImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVLoadableImage-umbrella.h"; sourceTree = "<group>"; };
 		90EF27AA2D783563D66E461B9BB32981 /* JVLoadableImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JVLoadableImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		91D735E320407786C9CB4807545F8762 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		932065DD282362FC568ED70D3226E5B0 /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
 		93350C11EC24B49197EA87E1E9C6A7DC /* JVLoadableImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVLoadableImage-Info.plist"; sourceTree = "<group>"; };
-		958BCE51EFD0B7D086E24E65BFB3E654 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		960BA14F089A059066B187D6FEC23D0B /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
-		97936BF336077FDB5EF141CCF8937B4B /* JVUIButtonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVUIButtonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AE55BF6D62B328810EA4EB46B071855 /* JVUIButtonExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIButtonExtensions-prefix.pch"; sourceTree = "<group>"; };
+		944E204FC17E9D358C339D9B7E9CEA08 /* JVJSONCodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVJSONCodable-Info.plist"; sourceTree = "<group>"; };
+		96794EFDBF07DD42FBEEEB3058DC5FC4 /* JVGenericNotificationCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVGenericNotificationCenter.xcconfig; sourceTree = "<group>"; };
+		9D2BC8B366035C4B2B969DBB9692D519 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB7AA4D59798E494D666E8CC0E5E082 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
-		9DC3F3A4C991C7E8A93D418351F25C00 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC970EAF06653F5AD4525039407BE64 /* Pods-JVLoadableImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVLoadableImage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A0E6B99075308D1621392CD6505491AF /* JVGenericNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGenericNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B0CB57A229036DAB0C9CCF648D751D /* Pods-JVLoadableImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVLoadableImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A516BB1C70D00649E902F1AAC0B347AF /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
-		A6D70EAF5C7B5BEBFDBE379A75D19644 /* Sizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sizeable.swift; path = JVSizeable/Classes/Sizeable.swift; sourceTree = "<group>"; };
-		AFB58DCB4339171AA1B55A14027A981E /* ConstraintAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAnchor.swift; path = JVConstraintEdges/Classes/ConstraintAnchor.swift; sourceTree = "<group>"; };
-		B06A862AE1E14347394EADA37EACA0F3 /* JVLoadableImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVLoadableImage.framework; path = JVLoadableImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15D7978951A24DF520B9879C87F473B /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEE0A9A04CEEFFA3B600574C2CF0F9D /* JVUIButtonExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVUIButtonExtensions.modulemap; sourceTree = "<group>"; };
+		ADED877E24C0071912064A20AD8B5EC8 /* JVSizeable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-umbrella.h"; sourceTree = "<group>"; };
 		B197F4472247707B88BF99E32CE3CFA8 /* Pods-JVLoadableImage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVLoadableImage_Tests-dummy.m"; sourceTree = "<group>"; };
-		B3DD50079DDD5E10068A0F73DDDF2B69 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
-		BE31EFE5E085DE05D500E0135CC529F6 /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
+		B4A7E9929D489129C94AF62EACBF8DFB /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
+		B79D5DE68A287AF88EDC81A8000088A4 /* JVJSONCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVJSONCodable-dummy.m"; sourceTree = "<group>"; };
+		BA1FC24916E847868F068A500AE6A602 /* JVUIButtonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVUIButtonExtensions.framework; path = JVUIButtonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF34DE2384930E713BA52F5078D3AF4F /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
 		C2096BABA138028CBBC320D2A11FF914 /* NotificationCenterReceivedPhotoUserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenterReceivedPhotoUserInfo.swift; path = JVLoadableImage/Classes/NotificationCenterReceivedPhotoUserInfo.swift; sourceTree = "<group>"; };
+		C35D7F56C39F8CC7FAA1E0A7482CE09F /* ConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintEdges.swift; path = JVConstraintEdges/Classes/ConstraintEdges.swift; sourceTree = "<group>"; };
 		C49090505564D9F3460BC4C5774A5379 /* JVLoadableImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVLoadableImage.xcconfig; sourceTree = "<group>"; };
 		C817959855CE9A6D25A7C35B54A6D1B8 /* Pods-JVLoadableImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVLoadableImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3AAF3B02024D479C851BCB55BC13B /* JVUIButtonExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVUIButtonExtensions.xcconfig; sourceTree = "<group>"; };
-		CC237F52E3D7A7C480D3D6301F077301 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
+		C9D2B8A49182C60246B90374B9F634DB /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA7852CE8FB828E5C37639370279AAA /* JVGenericNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVGenericNotificationCenter-dummy.m"; sourceTree = "<group>"; };
 		CD2512180D308A316E4A479F387EAEF6 /* JVLoadableImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVLoadableImage-prefix.pch"; sourceTree = "<group>"; };
-		CD61C3E60637F47D0502AC390AD7515D /* JVUIButtonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVUIButtonExtensions.framework; path = JVUIButtonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE0B825A296DA015CBBC973651D63A64 /* JVGenericNotificationCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVGenericNotificationCenter-prefix.pch"; sourceTree = "<group>"; };
+		CEEC98FF5E36B57DF6499893499DC73A /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
 		D57B3310C10F7B7AF6F5556B6354397A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DBD4576DF6D5FD957B5408376D0CE142 /* JVGenericNotificationCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVGenericNotificationCenter-dummy.m"; sourceTree = "<group>"; };
-		DCA89DB3166976C2FA78A909B1579ABC /* Pods_JVLoadableImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVLoadableImage_Tests.framework; path = "Pods-JVLoadableImage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB66356317C9EC3BBDD8927E146CE565 /* Sizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sizeable.swift; path = JVSizeable/Classes/Sizeable.swift; sourceTree = "<group>"; };
+		DC5155A90C854F560ADBB69C2E8AD99D /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
+		DFCF2F3D017F2F295F9CF5C2B6FF6DFC /* ConstraintAnchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAnchor.swift; path = JVConstraintEdges/Classes/ConstraintAnchor.swift; sourceTree = "<group>"; };
 		E016690B42790A5EB50475A583E590B5 /* Pods-JVLoadableImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVLoadableImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E022837B7DF3683D09A88E05327C16D9 /* JVLoadableImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVLoadableImage.modulemap; sourceTree = "<group>"; };
-		E22FEF9E68CC0538E38763644228ED62 /* JVSizeable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVSizeable-Info.plist"; sourceTree = "<group>"; };
-		EA6211DDEE0D935C69FA3E8A611B89FD /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
-		EC97E02A5672F9DFB99FEFB5D5AC3828 /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
-		F06C6798591E52CBAC58F330A3B9AF82 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
-		F0F9E9CD948734C4DDD19532F924E384 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
-		F11B411EB8022666D1BA3A1D02FE5E9F /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
-		FF7A9ED8E7F83D4B0A1FFD71DC45A357 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVConstraintEdges/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		E216EC24DC1F6E2A0861CDF4B265563B /* JSONCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONCodable.swift; path = JVJSONCodable/Classes/JSONCodable.swift; sourceTree = "<group>"; };
+		E3E20902FA224F5A61CA62B022F66917 /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECCF8DD1BC29DF03778588129E4B3D39 /* JVGenericNotificationCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVGenericNotificationCenter-Info.plist"; sourceTree = "<group>"; };
+		F1B9977C66B4325B3EC9EC9BF008EE96 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
+		F347B8CD2692D2346D55B55A857F8E48 /* JVUIButtonExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVUIButtonExtensions-Info.plist"; sourceTree = "<group>"; };
+		F3D3616834B48A1C1EC0F78F86F30C90 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB666F6FAD76E8E68C1CCCF34732850C /* JVUIButtonExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIButtonExtensions-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +256,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB152D76A89D392B552FD317ADA44D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D384722F8100CDA17A07E8E84D82C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3753C0722BEF89377F3B8F5F3AADCD /* Foundation.framework in Frameworks */,
+				76B6CDC9F3EE073DB0F6A2C004690BCA /* JVJSONCodable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208B15C673BAA3A5BFBDBE9492BBB181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29168245E6C7C109609FBCCA09C0CFB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,11 +286,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CED7258E972A6914C6228903125D796 /* Frameworks */ = {
+		854A65EF6D3CA2CA27B37F0E49192711 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29065DEE3D28E909F315FACB8AC1A63D /* Foundation.framework in Frameworks */,
+				5D593089A78A63116A7D6B99FE3214D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,14 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				383545496FF689D07DB63EF714C0AAA0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7AC9CC3FD71398E3207E4E70EE7CA52 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				788A7A9B51D9476482DC3BC01DB44A32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +324,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1022729D5DA18DF2324CD88AFFBB1D96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7970FC4C7995BB215ED8BA3F1BFE0000 /* JVJSONCodable.modulemap */,
+				85C45EAADA581F2C7C41E0123B96F994 /* JVJSONCodable.xcconfig */,
+				B79D5DE68A287AF88EDC81A8000088A4 /* JVJSONCodable-dummy.m */,
+				944E204FC17E9D358C339D9B7E9CEA08 /* JVJSONCodable-Info.plist */,
+				0E4683B1DF090A550E6A872DF63CCEC7 /* JVJSONCodable-prefix.pch */,
+				569B1A94CD6E40684DA0888343FCDE0D /* JVJSONCodable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVJSONCodable";
+			sourceTree = "<group>";
+		};
 		12D59E146FB1B6316C9DEF6B8669659C /* Pods-JVLoadableImage_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,21 +355,42 @@
 			path = "Target Support Files/Pods-JVLoadableImage_Tests";
 			sourceTree = "<group>";
 		};
-		1853553C4844E313FB68BE19385967F2 /* JVConstraintEdges */ = {
+		4491867526FFCB8459759E43E456D173 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3DD50079DDD5E10068A0F73DDDF2B69 /* Anchor.swift */,
-				4B8CB3504787C7DE7116015C88335E42 /* CGFloatExtensions.swift */,
-				AFB58DCB4339171AA1B55A14027A981E /* ConstraintAnchor.swift */,
-				1C6A5232A5866B75341FC235377C090A /* ConstraintEdges.swift */,
-				26F1DF9FD7B65EE7A81A93BF24AE3C96 /* ContentTypeConstraintEdges.swift */,
-				6A1A5E7A42285DBE01BCA5118F7D0421 /* ModelCreator.swift */,
-				FF7A9ED8E7F83D4B0A1FFD71DC45A357 /* StringExtensions.swift */,
-				EA6211DDEE0D935C69FA3E8A611B89FD /* UIViewFillExtension.swift */,
-				6D9226F4E484CB06C6B41912DAF6DD4B /* Support Files */,
+				B4A7E9929D489129C94AF62EACBF8DFB /* JVSizeable.modulemap */,
+				2A42A46F2FD94B32996BFE5A6840D119 /* JVSizeable.xcconfig */,
+				8BC3CF735EAD33B450FE830800257080 /* JVSizeable-dummy.m */,
+				5165334D348DC6E18DE772E9E21852D4 /* JVSizeable-Info.plist */,
+				70465510CD94078587BCF782B556DFCC /* JVSizeable-prefix.pch */,
+				ADED877E24C0071912064A20AD8B5EC8 /* JVSizeable-umbrella.h */,
 			);
-			name = JVConstraintEdges;
-			path = JVConstraintEdges;
+			name = "Support Files";
+			path = "../Target Support Files/JVSizeable";
+			sourceTree = "<group>";
+		};
+		45B8B7D2567827E1435BCE23FF3ADD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3616834B48A1C1EC0F78F86F30C90 /* JVConstraintEdges.framework */,
+				3632DE1E0DB44AD8D187DBB4D69E99F7 /* JVContentType.framework */,
+				347F7BD344E5366A2B4FE31421A81CC2 /* JVGenericNotificationCenter.framework */,
+				6023D8301500157C18734B8D1ED2CF77 /* JVJSONCodable.framework */,
+				4F9C2DD1F953AAACA0467D470C151524 /* JVSizeable.framework */,
+				36FF66F051A48FC39648D6B1DC5D704A /* JVUIButtonExtensions.framework */,
+				C4A0B7652AA0F376148C7EE698C5A5F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4886F78439B90E783957987A0FD2BC90 /* JVUIButtonExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				346E15E954F4C8A8959A463F9A95E4CB /* JVUIButtonExtensions.swift */,
+				9441361B346308BD2F9D296446672FD3 /* Support Files */,
+			);
+			name = JVUIButtonExtensions;
+			path = JVUIButtonExtensions;
 			sourceTree = "<group>";
 		};
 		4AE60CAC70D8EFF34E76F9DB1FADF2AC /* Pod */ = {
@@ -329,72 +403,47 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5030257C490FEE57B8809896577E9AED /* Products */ = {
+		4C207146A0D1C04B28966FA541F6728C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7BAECB99C2A11F764D2BE199D350286A /* JVConstraintEdges.framework */,
-				0C695711342163E5A6510D64EAD197EA /* JVContentType.framework */,
-				2A9D8CD8BD8DFFDC0662FB33F5508E6D /* JVGenericNotificationCenter.framework */,
-				B06A862AE1E14347394EADA37EACA0F3 /* JVLoadableImage.framework */,
-				91D735E320407786C9CB4807545F8762 /* JVSizeable.framework */,
-				CD61C3E60637F47D0502AC390AD7515D /* JVUIButtonExtensions.framework */,
-				DCA89DB3166976C2FA78A909B1579ABC /* Pods_JVLoadableImage_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5FDA319E030FAA09EE74B289EAEA5FE4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				669F3807C3B2629BF37F43B00BE08025 /* JVGenericNotificationCenter.modulemap */,
-				55CE2F303D9D13299E3B53E00CA0A837 /* JVGenericNotificationCenter.xcconfig */,
-				DBD4576DF6D5FD957B5408376D0CE142 /* JVGenericNotificationCenter-dummy.m */,
-				27E10183E9A215BF1C8D26F707A704F4 /* JVGenericNotificationCenter-Info.plist */,
-				CE0B825A296DA015CBBC973651D63A64 /* JVGenericNotificationCenter-prefix.pch */,
-				177C2DC5447B6A7355FC461BC9E464A9 /* JVGenericNotificationCenter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JVGenericNotificationCenter";
-			sourceTree = "<group>";
-		};
-		6D9226F4E484CB06C6B41912DAF6DD4B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				441D2A3565C6EADD09679FFEE850284A /* JVConstraintEdges.modulemap */,
-				BE31EFE5E085DE05D500E0135CC529F6 /* JVConstraintEdges.xcconfig */,
-				4484B0D2209D1B54AA787535ADACB0DF /* JVConstraintEdges-dummy.m */,
-				32089F8DD12F43AEF2252B33170F9FB7 /* JVConstraintEdges-Info.plist */,
-				960BA14F089A059066B187D6FEC23D0B /* JVConstraintEdges-prefix.pch */,
-				4C88584D53CBAA50EFCBABF709E483D0 /* JVConstraintEdges-umbrella.h */,
+				DC5155A90C854F560ADBB69C2E8AD99D /* JVConstraintEdges.modulemap */,
+				CEEC98FF5E36B57DF6499893499DC73A /* JVConstraintEdges.xcconfig */,
+				8BD79A283CF864703A624F1B4E1D9300 /* JVConstraintEdges-dummy.m */,
+				2AF61E69E7B10E761117D65EB9C9EB36 /* JVConstraintEdges-Info.plist */,
+				0A0D095C43CAE44C4DAF118266784E9F /* JVConstraintEdges-prefix.pch */,
+				7957EE6E29DD83EFF1A6EFD20432ADBC /* JVConstraintEdges-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JVConstraintEdges";
 			sourceTree = "<group>";
 		};
-		7FA3A319B5AE9C3C7DF9F636EE70F178 /* Pods */ = {
+		4C63EB3EBAD079DC4FFD9B1684F2C5D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1853553C4844E313FB68BE19385967F2 /* JVConstraintEdges */,
-				8F76F86C5A89917D375C4FB1AA0E076B /* JVContentType */,
-				9DD8FCF3A7B5F92CFA670C3E547D3034 /* JVGenericNotificationCenter */,
-				D3CD4D32E9E09537785AF77786B85360 /* JVSizeable */,
-				FE665D38BD2DA7F8D64DF9A44A2A163D /* JVUIButtonExtensions */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		849D699401F563CC2333206CD1B6CCC0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				384F8C13BC074959EBE8FF3F36AB07A3 /* JVUIButtonExtensions.modulemap */,
-				CBB3AAF3B02024D479C851BCB55BC13B /* JVUIButtonExtensions.xcconfig */,
-				611129F63B0693B0D99CFD6D1A078E76 /* JVUIButtonExtensions-dummy.m */,
-				53D7C9DB189979EB6A0808DE3C8DA634 /* JVUIButtonExtensions-Info.plist */,
-				9AE55BF6D62B328810EA4EB46B071855 /* JVUIButtonExtensions-prefix.pch */,
-				39530331A3D3DCB6812A8F328C3F05A2 /* JVUIButtonExtensions-umbrella.h */,
+				25D23DD04C76CB992F905F2844B94961 /* JVContentType.modulemap */,
+				045E04DE3C3779C7F68CF9EE54BEA676 /* JVContentType.xcconfig */,
+				58916F377285AE9D8623D72D3C7FC9EF /* JVContentType-dummy.m */,
+				093F9E44F0046E305CE4576D00C9DFAB /* JVContentType-Info.plist */,
+				6DDE1009A16955378FC37A4291737F99 /* JVContentType-prefix.pch */,
+				9D2BC8B366035C4B2B969DBB9692D519 /* JVContentType-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JVUIButtonExtensions";
+			path = "../Target Support Files/JVContentType";
+			sourceTree = "<group>";
+		};
+		4FAA653C998DD843835BE0E79BD9C69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203E55257E348D11A0654C88143DBB85 /* JVConstraintEdges.framework */,
+				3945CE93EB71A32C77DBD3213D235183 /* JVContentType.framework */,
+				535C3F81068D75974A3F8B3C8B491008 /* JVGenericNotificationCenter.framework */,
+				6C55A6C66449F578020ED6437979A156 /* JVJSONCodable.framework */,
+				447C5B6E50F8B5755CE6C99FB93C825B /* JVLoadableImage.framework */,
+				C9D2B8A49182C60246B90374B9F634DB /* JVSizeable.framework */,
+				BA1FC24916E847868F068A500AE6A602 /* JVUIButtonExtensions.framework */,
+				5F41ECA48E70683F19A7139B5E29C8B8 /* Pods_JVLoadableImage_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		878562E9E318D5F1B00E2597534A344B /* Support Files */ = {
@@ -419,6 +468,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		8E249385677BB71ED4032D48EF00794F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7A1E646F2C2D3D375C4A76F36DCC242 /* JVConstraintEdges */,
+				B0B271657DED6A81CA923D540C281643 /* JVContentType */,
+				A9F4F45E1CD29E4F2E81CDC9C1E9E16F /* JVGenericNotificationCenter */,
+				F8C802FF249099332460A3EC42AFCE03 /* JVJSONCodable */,
+				D4B804C9C3A0C6693FD007A105B860FE /* JVSizeable */,
+				4886F78439B90E783957987A0FD2BC90 /* JVUIButtonExtensions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8EA32E428EB23FDC0ABCDB6B136D8DC2 /* JVLoadableImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,56 +494,83 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		8EDEA829228DB12AA1AB467EFE76A2F5 /* Support Files */ = {
+		9441361B346308BD2F9D296446672FD3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				089FEEBFE7B0D3875E96381E784804B4 /* JVContentType.modulemap */,
-				781C36161AD21EB1643F4843EA3DD475 /* JVContentType.xcconfig */,
-				F06C6798591E52CBAC58F330A3B9AF82 /* JVContentType-dummy.m */,
-				EC97E02A5672F9DFB99FEFB5D5AC3828 /* JVContentType-Info.plist */,
-				68CFD29C800B4F801F4EE925EC876208 /* JVContentType-prefix.pch */,
-				9DB7AA4D59798E494D666E8CC0E5E082 /* JVContentType-umbrella.h */,
+				ABEE0A9A04CEEFFA3B600574C2CF0F9D /* JVUIButtonExtensions.modulemap */,
+				49F5ADB1C861F8D95856A425FF407718 /* JVUIButtonExtensions.xcconfig */,
+				6072DE84AE1E7910F874F73990792DC6 /* JVUIButtonExtensions-dummy.m */,
+				F347B8CD2692D2346D55B55A857F8E48 /* JVUIButtonExtensions-Info.plist */,
+				FB666F6FAD76E8E68C1CCCF34732850C /* JVUIButtonExtensions-prefix.pch */,
+				5809B04CEA0D4E4F68E651AC426EAB09 /* JVUIButtonExtensions-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JVContentType";
+			path = "../Target Support Files/JVUIButtonExtensions";
 			sourceTree = "<group>";
 		};
-		8F76F86C5A89917D375C4FB1AA0E076B /* JVContentType */ = {
+		A9F4F45E1CD29E4F2E81CDC9C1E9E16F /* JVGenericNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				5600309AB364282D066266BCF1927AB1 /* CollectionExtensions.swift */,
-				CC237F52E3D7A7C480D3D6301F077301 /* ContentType.swift */,
-				6DB31E9328D0C5E6B3EEA780A7D4089A /* ContentTypeGroup.swift */,
-				0A059B8E4EF63092CD18CA1E712C7314 /* ContentTypeGroupInitializable.swift */,
-				F0F9E9CD948734C4DDD19532F924E384 /* ContentTypeInitializable.swift */,
-				A516BB1C70D00649E902F1AAC0B347AF /* Copyable.swift */,
-				8EDEA829228DB12AA1AB467EFE76A2F5 /* Support Files */,
-			);
-			name = JVContentType;
-			path = JVContentType;
-			sourceTree = "<group>";
-		};
-		9DD8FCF3A7B5F92CFA670C3E547D3034 /* JVGenericNotificationCenter */ = {
-			isa = PBXGroup;
-			children = (
-				0A2378AD8A5E9083547EA8BAFD9C87A3 /* Extensions.swift */,
-				5FDA319E030FAA09EE74B289EAEA5FE4 /* Support Files */,
+				6F797DD9CE20D138BBD3FDCD94A5E7A9 /* Mapper.swift */,
+				263CB663EE494CBF41DA1F087CA1CEC1 /* Observer.swift */,
+				B0A1D6F45F34FE8EBECAD7585F3661F9 /* Support Files */,
 			);
 			name = JVGenericNotificationCenter;
 			path = JVGenericNotificationCenter;
 			sourceTree = "<group>";
 		};
-		BB100EE57918BB7319BC377A28B8C12A /* Frameworks */ = {
+		B0A1D6F45F34FE8EBECAD7585F3661F9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				958BCE51EFD0B7D086E24E65BFB3E654 /* JVConstraintEdges.framework */,
-				9DC3F3A4C991C7E8A93D418351F25C00 /* JVContentType.framework */,
-				A0E6B99075308D1621392CD6505491AF /* JVGenericNotificationCenter.framework */,
-				B15D7978951A24DF520B9879C87F473B /* JVSizeable.framework */,
-				97936BF336077FDB5EF141CCF8937B4B /* JVUIButtonExtensions.framework */,
-				D5F986C8AB52E2CC433F00C3872D9C8B /* iOS */,
+				1D01CE6B5CA0826E3722F6863A5442FD /* JVGenericNotificationCenter.modulemap */,
+				96794EFDBF07DD42FBEEEB3058DC5FC4 /* JVGenericNotificationCenter.xcconfig */,
+				CAA7852CE8FB828E5C37639370279AAA /* JVGenericNotificationCenter-dummy.m */,
+				ECCF8DD1BC29DF03778588129E4B3D39 /* JVGenericNotificationCenter-Info.plist */,
+				3CFA601325A422A4E459F996ECED05CA /* JVGenericNotificationCenter-prefix.pch */,
+				187F0ABE25614E86A3F43A60A9ABEA5C /* JVGenericNotificationCenter-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/JVGenericNotificationCenter";
+			sourceTree = "<group>";
+		};
+		B0B271657DED6A81CA923D540C281643 /* JVContentType */ = {
+			isa = PBXGroup;
+			children = (
+				3D00732D490D5B0DD8036C54ED926917 /* CollectionExtensions.swift */,
+				BF34DE2384930E713BA52F5078D3AF4F /* ContentType.swift */,
+				E3E20902FA224F5A61CA62B022F66917 /* ContentTypeGroup.swift */,
+				7909255A804649092CCF673FCEF1031E /* ContentTypeGroupInitializable.swift */,
+				F1B9977C66B4325B3EC9EC9BF008EE96 /* ContentTypeInitializable.swift */,
+				011E129B5C63DBC55ED8150BBE5B96AF /* Copyable.swift */,
+				4C63EB3EBAD079DC4FFD9B1684F2C5D2 /* Support Files */,
+			);
+			name = JVContentType;
+			path = JVContentType;
+			sourceTree = "<group>";
+		};
+		B7A1E646F2C2D3D375C4A76F36DCC242 /* JVConstraintEdges */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB379545D94F9674386CD945975F11 /* Anchor.swift */,
+				471868F8330E634B0C43A003D55A7190 /* CGFloatExtensions.swift */,
+				DFCF2F3D017F2F295F9CF5C2B6FF6DFC /* ConstraintAnchor.swift */,
+				C35D7F56C39F8CC7FAA1E0A7482CE09F /* ConstraintEdges.swift */,
+				001140912476E853BFAB7EA18585FB21 /* ContentTypeConstraintEdges.swift */,
+				373CD514BAE45EA85DA1B09E44BE2532 /* ModelCreator.swift */,
+				06C8F446DDF989767AFC05D9466B8EA7 /* StringExtensions.swift */,
+				8835DD581DCE0DB35DCBD2F52A8CB193 /* UIViewFillExtension.swift */,
+				4C207146A0D1C04B28966FA541F6728C /* Support Files */,
+			);
+			name = JVConstraintEdges;
+			path = JVConstraintEdges;
+			sourceTree = "<group>";
+		};
+		C4A0B7652AA0F376148C7EE698C5A5F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E47A768FFFAB1909957F5CDBB2D25EF2 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -489,29 +578,21 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				EF56502A384072B5D91E40779B19A35B /* Development Pods */,
-				BB100EE57918BB7319BC377A28B8C12A /* Frameworks */,
-				7FA3A319B5AE9C3C7DF9F636EE70F178 /* Pods */,
-				5030257C490FEE57B8809896577E9AED /* Products */,
+				45B8B7D2567827E1435BCE23FF3ADD12 /* Frameworks */,
+				8E249385677BB71ED4032D48EF00794F /* Pods */,
+				4FAA653C998DD843835BE0E79BD9C69D /* Products */,
 				88BC76DE75C6A8B921DE2DEBB214A28E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D3CD4D32E9E09537785AF77786B85360 /* JVSizeable */ = {
+		D4B804C9C3A0C6693FD007A105B860FE /* JVSizeable */ = {
 			isa = PBXGroup;
 			children = (
-				A6D70EAF5C7B5BEBFDBE379A75D19644 /* Sizeable.swift */,
-				EF87AE2F7EAC1AEA33ED3CA3F308FB7B /* Support Files */,
+				DB66356317C9EC3BBDD8927E146CE565 /* Sizeable.swift */,
+				4491867526FFCB8459759E43E456D173 /* Support Files */,
 			);
 			name = JVSizeable;
 			path = JVSizeable;
-			sourceTree = "<group>";
-		};
-		D5F986C8AB52E2CC433F00C3872D9C8B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				67E191781AC188D25F9FA87B14E521BC /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		EF56502A384072B5D91E40779B19A35B /* Development Pods */ = {
@@ -522,28 +603,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		EF87AE2F7EAC1AEA33ED3CA3F308FB7B /* Support Files */ = {
+		F8C802FF249099332460A3EC42AFCE03 /* JVJSONCodable */ = {
 			isa = PBXGroup;
 			children = (
-				62F41117EB5A3123DBBEFECFF5C761E9 /* JVSizeable.modulemap */,
-				F11B411EB8022666D1BA3A1D02FE5E9F /* JVSizeable.xcconfig */,
-				2E67AC4697D01FBEF06A839A3F443C45 /* JVSizeable-dummy.m */,
-				E22FEF9E68CC0538E38763644228ED62 /* JVSizeable-Info.plist */,
-				932065DD282362FC568ED70D3226E5B0 /* JVSizeable-prefix.pch */,
-				08F38CB60603F7F6A3618D0E387E7D3A /* JVSizeable-umbrella.h */,
+				E216EC24DC1F6E2A0861CDF4B265563B /* JSONCodable.swift */,
+				1022729D5DA18DF2324CD88AFFBB1D96 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JVSizeable";
-			sourceTree = "<group>";
-		};
-		FE665D38BD2DA7F8D64DF9A44A2A163D /* JVUIButtonExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				0134DC762648CB4D8A812E074B9B47BA /* JVUIButtonExtensions.swift */,
-				849D699401F563CC2333206CD1B6CCC0 /* Support Files */,
-			);
-			name = JVUIButtonExtensions;
-			path = JVUIButtonExtensions;
+			name = JVJSONCodable;
+			path = JVJSONCodable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,6 +624,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0623F0D9179F09C6990E483274EEBEB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF00A1AF2D5D42EDC00B18DC4CA5BB9 /* JVGenericNotificationCenter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		107DA38817AB5CF022F10F673E8526BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,19 +640,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46DE690EB973324E72F3EDA6079D10AF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9595040F08F638FA06C55D083875A4FB /* Pods-JVLoadableImage_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		53858EDE9AEDF63F3F27FB70D239B5F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				061660A8851C480F9238921190925070 /* JVLoadableImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5610A8A8D94DE21624B39B6EA19CC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC00CEDEE8D8A219756F9B0C1A89B52 /* JVJSONCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F02F64931B43DE6FED038E3CA23AFA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8711C3B8F595F25D75DB0158DB5FAE3A /* Pods-JVLoadableImage_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,17 +680,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE328A09A203CC0F5F8F3A2372D464B3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2FB82FAFB9810D770ACBA161A3FCFE7 /* JVGenericNotificationCenter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		326E82F074FD95925EE77BF7A89679EA /* Pods-JVLoadableImage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB490902C6A802F27B3A39217401DF66 /* Build configuration list for PBXNativeTarget "Pods-JVLoadableImage_Tests" */;
+			buildPhases = (
+				9F02F64931B43DE6FED038E3CA23AFA9 /* Headers */,
+				405D02F88A901F777CD0EF0A5BDADFF4 /* Sources */,
+				854A65EF6D3CA2CA27B37F0E49192711 /* Frameworks */,
+				ABD92AF8175F145B2DDCDF2D2D3F6457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35438D8D45BB44BFC7CE2844F864163F /* PBXTargetDependency */,
+				C5A29828DF99C954860F0F55F7D96CA7 /* PBXTargetDependency */,
+				B2E3966BF577EE3F69D412EFB1B64116 /* PBXTargetDependency */,
+				A9A8C0A70E7EBD95CF5BE5500CA4CE10 /* PBXTargetDependency */,
+				7262EB4C2BC37ACA85E4E85E411A3E09 /* PBXTargetDependency */,
+				E9DD4B85150D66E77C4C142CFA3AF2D1 /* PBXTargetDependency */,
+				C30F4BC9292553B2737A2EDD289D464B /* PBXTargetDependency */,
+			);
+			name = "Pods-JVLoadableImage_Tests";
+			productName = "Pods-JVLoadableImage_Tests";
+			productReference = 5F41ECA48E70683F19A7139B5E29C8B8 /* Pods_JVLoadableImage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD676A4C2416FE38E5807E46E4C99EB7 /* Build configuration list for PBXNativeTarget "JVConstraintEdges" */;
@@ -625,25 +725,7 @@
 			);
 			name = JVConstraintEdges;
 			productName = JVConstraintEdges;
-			productReference = 7BAECB99C2A11F764D2BE199D350286A /* JVConstraintEdges.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		818B90D942CC74F543D7382AB2A70CCC /* JVGenericNotificationCenter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F09ABD265EB16962AF3954E7DDDEEA12 /* Build configuration list for PBXNativeTarget "JVGenericNotificationCenter" */;
-			buildPhases = (
-				DE328A09A203CC0F5F8F3A2372D464B3 /* Headers */,
-				7513E8494415A6DD8FEE8CBB6310695B /* Sources */,
-				6CED7258E972A6914C6228903125D796 /* Frameworks */,
-				4DEC153A9B5A9976EA5893194B1E2363 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JVGenericNotificationCenter;
-			productName = JVGenericNotificationCenter;
-			productReference = 2A9D8CD8BD8DFFDC0662FB33F5508E6D /* JVGenericNotificationCenter.framework */;
+			productReference = 203E55257E348D11A0654C88143DBB85 /* JVConstraintEdges.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F31B948899BCA67DD2078010378AFBC /* JVSizeable */ = {
@@ -661,7 +743,25 @@
 			);
 			name = JVSizeable;
 			productName = JVSizeable;
-			productReference = 91D735E320407786C9CB4807545F8762 /* JVSizeable.framework */;
+			productReference = C9D2B8A49182C60246B90374B9F634DB /* JVSizeable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96DCA8A63D04BBB8DCBE2B0A1D0CEB0D /* JVJSONCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94167CAF12708C2C25BD493ED66E6FC2 /* Build configuration list for PBXNativeTarget "JVJSONCodable" */;
+			buildPhases = (
+				7A5610A8A8D94DE21624B39B6EA19CC1 /* Headers */,
+				F69FE1484FA0AA3DB4DFEC91D3F75BFD /* Sources */,
+				208B15C673BAA3A5BFBDBE9492BBB181 /* Frameworks */,
+				1C8F0102367DC2710CB84D5A833951D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVJSONCodable;
+			productName = JVJSONCodable;
+			productReference = 6C55A6C66449F578020ED6437979A156 /* JVJSONCodable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */ = {
@@ -679,7 +779,7 @@
 			);
 			name = JVContentType;
 			productName = JVContentType;
-			productReference = 0C695711342163E5A6510D64EAD197EA /* JVContentType.framework */;
+			productReference = 3945CE93EB71A32C77DBD3213D235183 /* JVContentType.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A27A221FE9850D7845890FF2562973D5 /* JVUIButtonExtensions */ = {
@@ -697,7 +797,7 @@
 			);
 			name = JVUIButtonExtensions;
 			productName = JVUIButtonExtensions;
-			productReference = CD61C3E60637F47D0502AC390AD7515D /* JVUIButtonExtensions.framework */;
+			productReference = BA1FC24916E847868F068A500AE6A602 /* JVUIButtonExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AE4D6FC15C683CF65F2AD59C9DB1B8FD /* JVLoadableImage */ = {
@@ -718,31 +818,26 @@
 			);
 			name = JVLoadableImage;
 			productName = JVLoadableImage;
-			productReference = B06A862AE1E14347394EADA37EACA0F3 /* JVLoadableImage.framework */;
+			productReference = 447C5B6E50F8B5755CE6C99FB93C825B /* JVLoadableImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D0E4802021B92EAA02D8D15D8F1890DE /* Pods-JVLoadableImage_Tests */ = {
+		B5D984F56FF34C050DE2032450E19389 /* JVGenericNotificationCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CF4B704CAC4237B66ABA3A1DB1C4EDC /* Build configuration list for PBXNativeTarget "Pods-JVLoadableImage_Tests" */;
+			buildConfigurationList = D97C880E865D989F2AAC2DB15B324773 /* Build configuration list for PBXNativeTarget "JVGenericNotificationCenter" */;
 			buildPhases = (
-				46DE690EB973324E72F3EDA6079D10AF /* Headers */,
-				C3E36ED85A2C8DC7C2DE1E1A33BA6A92 /* Sources */,
-				C7AC9CC3FD71398E3207E4E70EE7CA52 /* Frameworks */,
-				52DC301176B06A485A484E727EA70C1E /* Resources */,
+				0623F0D9179F09C6990E483274EEBEB5 /* Headers */,
+				EB827F216143C1F14E00962315D38435 /* Sources */,
+				1D384722F8100CDA17A07E8E84D82C08 /* Frameworks */,
+				A73C0EBEED634D86B52AF11357BBC05B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB7CA3BF4D5138693B6622FBD0F27778 /* PBXTargetDependency */,
-				75479B110B50C520CBF489C69458A42E /* PBXTargetDependency */,
-				762076B248D7BE20F03175E058B78CF7 /* PBXTargetDependency */,
-				85B8339FFD970BAE35597740B3872765 /* PBXTargetDependency */,
-				8B9558D5084533C376A93A0344A00AA1 /* PBXTargetDependency */,
-				C62A93DECBBB838A1FEF336BE38C987E /* PBXTargetDependency */,
+				840E7FF99D4BC957D56A0E39EDF342CE /* PBXTargetDependency */,
 			);
-			name = "Pods-JVLoadableImage_Tests";
-			productName = "Pods-JVLoadableImage_Tests";
-			productReference = DCA89DB3166976C2FA78A909B1579ABC /* Pods_JVLoadableImage_Tests.framework */;
+			name = JVGenericNotificationCenter;
+			productName = JVGenericNotificationCenter;
+			productReference = 535C3F81068D75974A3F8B3C8B491008 /* JVGenericNotificationCenter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -762,22 +857,30 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5030257C490FEE57B8809896577E9AED /* Products */;
+			productRefGroup = 4FAA653C998DD843835BE0E79BD9C69D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */,
 				9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */,
-				818B90D942CC74F543D7382AB2A70CCC /* JVGenericNotificationCenter */,
+				B5D984F56FF34C050DE2032450E19389 /* JVGenericNotificationCenter */,
+				96DCA8A63D04BBB8DCBE2B0A1D0CEB0D /* JVJSONCodable */,
 				AE4D6FC15C683CF65F2AD59C9DB1B8FD /* JVLoadableImage */,
 				8F31B948899BCA67DD2078010378AFBC /* JVSizeable */,
 				A27A221FE9850D7845890FF2562973D5 /* JVUIButtonExtensions */,
-				D0E4802021B92EAA02D8D15D8F1890DE /* Pods-JVLoadableImage_Tests */,
+				326E82F074FD95925EE77BF7A89679EA /* Pods-JVLoadableImage_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1C8F0102367DC2710CB84D5A833951D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		33C88E26FBD323D3616C516F4FA3FF9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -786,20 +889,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4D8D44FE753FB972875A33F1F07F8005 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DEC153A9B5A9976EA5893194B1E2363 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52DC301176B06A485A484E727EA70C1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -820,6 +909,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A73C0EBEED634D86B52AF11357BBC05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD92AF8175F145B2DDCDF2D2D3F6457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79AF3217020B8F23D33753B86111DC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -830,6 +933,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		405D02F88A901F777CD0EF0A5BDADFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2E3691A48D8A8CECD6F82581AC318E /* Pods-JVLoadableImage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		495B2FD6198910A213B6E5D4D3DA0EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -841,15 +952,6 @@
 				4DA2F76205DA439FB77C9CC41B5890D3 /* ContentTypeInitializable.swift in Sources */,
 				7F6A9070E067399AFA7C582C0E854E03 /* Copyable.swift in Sources */,
 				E2FF61972AA6C5C8D4127C48572CF880 /* JVContentType-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7513E8494415A6DD8FEE8CBB6310695B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F9BCE694C2CBC37E7D151429A0C3004 /* Extensions.swift in Sources */,
-				8D45205F4AC1726F4154DEB6D72B6C1B /* JVGenericNotificationCenter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,20 +975,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3E36ED85A2C8DC7C2DE1E1A33BA6A92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E988215F900BCF072B497C1641FDA0AE /* Pods-JVLoadableImage_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E498D3F3609ADE839883CBE15C9FF42F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D439A8C46DDE2732A11D879FA903DA6 /* JVSizeable-dummy.m in Sources */,
 				81294113734E14488FCE6FC410E97061 /* Sizeable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB827F216143C1F14E00962315D38435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC91BF61AB915F047F89C6362DDA1C9 /* JVGenericNotificationCenter-dummy.m in Sources */,
+				CFB6DEA52BFA63BD0CF5232AAD9610FD /* Mapper.swift in Sources */,
+				690D276F261560A2AF674FE433AAB5EE /* Observer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,26 +1010,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F69FE1484FA0AA3DB4DFEC91D3F75BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0EBF14CA6E34597BC3ED148752AB62 /* JSONCodable.swift in Sources */,
+				06C43DCAD057F48ABAC24A22FA451CAC /* JVJSONCodable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		062815E1C93AB6FBF3186A93E39FB99A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVGenericNotificationCenter;
-			target = 818B90D942CC74F543D7382AB2A70CCC /* JVGenericNotificationCenter */;
+			target = B5D984F56FF34C050DE2032450E19389 /* JVGenericNotificationCenter */;
 			targetProxy = BC0134EEA0E3AFBCB1DA115E6E9B7511 /* PBXContainerItemProxy */;
 		};
-		75479B110B50C520CBF489C69458A42E /* PBXTargetDependency */ = {
+		35438D8D45BB44BFC7CE2844F864163F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVContentType;
-			target = 9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */;
-			targetProxy = 9C8376D7B0794F9CB477F5640B905500 /* PBXContainerItemProxy */;
+			name = JVConstraintEdges;
+			target = 60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */;
+			targetProxy = 2FED45F43FBB3284989B0D08A5F480C9 /* PBXContainerItemProxy */;
 		};
-		762076B248D7BE20F03175E058B78CF7 /* PBXTargetDependency */ = {
+		7262EB4C2BC37ACA85E4E85E411A3E09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVGenericNotificationCenter;
-			target = 818B90D942CC74F543D7382AB2A70CCC /* JVGenericNotificationCenter */;
-			targetProxy = B7DE626F72EB7F3785C17D28969ED662 /* PBXContainerItemProxy */;
+			name = JVLoadableImage;
+			target = AE4D6FC15C683CF65F2AD59C9DB1B8FD /* JVLoadableImage */;
+			targetProxy = E4D71BF72C4167D65E6BA81DAC952493 /* PBXContainerItemProxy */;
 		};
 		83D6E75221A473EBD9AAF92BFD0FBE32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -933,17 +1046,11 @@
 			target = 8F31B948899BCA67DD2078010378AFBC /* JVSizeable */;
 			targetProxy = 4831C5B7F952B922CEC7472141A2C1CD /* PBXContainerItemProxy */;
 		};
-		85B8339FFD970BAE35597740B3872765 /* PBXTargetDependency */ = {
+		840E7FF99D4BC957D56A0E39EDF342CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVLoadableImage;
-			target = AE4D6FC15C683CF65F2AD59C9DB1B8FD /* JVLoadableImage */;
-			targetProxy = C628F65C58B130BD5CB5178CCB5769B1 /* PBXContainerItemProxy */;
-		};
-		8B9558D5084533C376A93A0344A00AA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVSizeable;
-			target = 8F31B948899BCA67DD2078010378AFBC /* JVSizeable */;
-			targetProxy = 3ABD88E21E0420AAD209A81D95720312 /* PBXContainerItemProxy */;
+			name = JVJSONCodable;
+			target = 96DCA8A63D04BBB8DCBE2B0A1D0CEB0D /* JVJSONCodable */;
+			targetProxy = F9E7F3C1DEC7F2F8E4C774911C20968C /* PBXContainerItemProxy */;
 		};
 		A3B217FE93618CA70139DC6133634CF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -951,11 +1058,17 @@
 			target = 60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */;
 			targetProxy = EF16E883C39892C702551A107FD39FB6 /* PBXContainerItemProxy */;
 		};
-		AB7CA3BF4D5138693B6622FBD0F27778 /* PBXTargetDependency */ = {
+		A9A8C0A70E7EBD95CF5BE5500CA4CE10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVConstraintEdges;
-			target = 60A8CA69C4722A2E22B9936A41B5DF43 /* JVConstraintEdges */;
-			targetProxy = 72C0798D495A742D18060A7E571F90E2 /* PBXContainerItemProxy */;
+			name = JVJSONCodable;
+			target = 96DCA8A63D04BBB8DCBE2B0A1D0CEB0D /* JVJSONCodable */;
+			targetProxy = 3131BD9DB3B85F906515988683454F8E /* PBXContainerItemProxy */;
+		};
+		B2E3966BF577EE3F69D412EFB1B64116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVGenericNotificationCenter;
+			target = B5D984F56FF34C050DE2032450E19389 /* JVGenericNotificationCenter */;
+			targetProxy = DA3A9AEA0BDE92EB1429893283F72448 /* PBXContainerItemProxy */;
 		};
 		BF0A4F9B0878BAD96CC39AE8D1F06F0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -963,11 +1076,17 @@
 			target = A27A221FE9850D7845890FF2562973D5 /* JVUIButtonExtensions */;
 			targetProxy = 07E65A06B36577F84FC311CCB391E801 /* PBXContainerItemProxy */;
 		};
-		C62A93DECBBB838A1FEF336BE38C987E /* PBXTargetDependency */ = {
+		C30F4BC9292553B2737A2EDD289D464B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVUIButtonExtensions;
 			target = A27A221FE9850D7845890FF2562973D5 /* JVUIButtonExtensions */;
-			targetProxy = 883BB0E4144F8917628FEE6F43961F7F /* PBXContainerItemProxy */;
+			targetProxy = F744815FFE991DB5387257CDE7C86AB4 /* PBXContainerItemProxy */;
+		};
+		C5A29828DF99C954860F0F55F7D96CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */;
+			targetProxy = 5493E85D73BAFECA6E432A5B7BAAE8E3 /* PBXContainerItemProxy */;
 		};
 		D37FFDA0E380BE72E1805A926784D871 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -975,12 +1094,18 @@
 			target = 9BB1C7FF1E93ABAAF72E627FBD99E9FB /* JVContentType */;
 			targetProxy = F051683948854CBBF3B2868935F14060 /* PBXContainerItemProxy */;
 		};
+		E9DD4B85150D66E77C4C142CFA3AF2D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVSizeable;
+			target = 8F31B948899BCA67DD2078010378AFBC /* JVSizeable */;
+			targetProxy = 132D32ABBED92C4EF940A54E69FFC639 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		16FC72E3A7D7484AA56FB1FA8612D3E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F11B411EB8022666D1BA3A1D02FE5E9F /* JVSizeable.xcconfig */;
+			baseConfigurationReference = 2A42A46F2FD94B32996BFE5A6840D119 /* JVSizeable.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1001,6 +1126,73 @@
 				MODULEMAP_FILE = "Target Support Files/JVSizeable/JVSizeable.modulemap";
 				PRODUCT_MODULE_NAME = JVSizeable;
 				PRODUCT_NAME = JVSizeable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22119959890CC9F48FFB5950F7FA2486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96794EFDBF07DD42FBEEEB3058DC5FC4 /* JVGenericNotificationCenter.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter.modulemap";
+				PRODUCT_MODULE_NAME = JVGenericNotificationCenter;
+				PRODUCT_NAME = JVGenericNotificationCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E7A0C51B9249D5FC0B4F0693A2550E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96794EFDBF07DD42FBEEEB3058DC5FC4 /* JVGenericNotificationCenter.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter.modulemap";
+				PRODUCT_MODULE_NAME = JVGenericNotificationCenter;
+				PRODUCT_NAME = JVGenericNotificationCenter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1072,42 +1264,6 @@
 			};
 			name = Release;
 		};
-		579234C0FF1DBBADE185D2BD3FC68ADD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4B0CB57A229036DAB0C9CCF648D751D /* Pods-JVLoadableImage_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1172,6 +1328,42 @@
 			};
 			name = Debug;
 		};
+		740720DF9C658BFCFF8FFBE54366573D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B0CB57A229036DAB0C9CCF648D751D /* Pods-JVLoadableImage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVLoadableImage_Tests/Pods-JVLoadableImage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7A97658DDE3621D519D5A2743113BF5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C49090505564D9F3460BC4C5774A5379 /* JVLoadableImage.xcconfig */;
@@ -1206,108 +1398,7 @@
 			};
 			name = Release;
 		};
-		A210A86C703ED9A494865F84DA537E7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB3AAF3B02024D479C851BCB55BC13B /* JVUIButtonExtensions.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions.modulemap";
-				PRODUCT_MODULE_NAME = JVUIButtonExtensions;
-				PRODUCT_NAME = JVUIButtonExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B342752F66DF9A4FB9BAE10A312AE503 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE31EFE5E085DE05D500E0135CC529F6 /* JVConstraintEdges.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
-				PRODUCT_MODULE_NAME = JVConstraintEdges;
-				PRODUCT_NAME = JVConstraintEdges;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3738124338004ADDC180E8B072F2F49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB3AAF3B02024D479C851BCB55BC13B /* JVUIButtonExtensions.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions.modulemap";
-				PRODUCT_MODULE_NAME = JVUIButtonExtensions;
-				PRODUCT_NAME = JVUIButtonExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C114EB53248A1EB913E53DBF3561F3C7 /* Debug */ = {
+		8CFC6CD7D760E5719D461F8BA0142DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D5D9157DB506F04203D39431740A8DC /* Pods-JVLoadableImage_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -1342,9 +1433,9 @@
 			};
 			name = Debug;
 		};
-		C88FCEF1EBCA9F9080D4ABC8CCE2D76F /* Release */ = {
+		A210A86C703ED9A494865F84DA537E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CE2F303D9D13299E3B53E00CA0A837 /* JVGenericNotificationCenter.xcconfig */;
+			baseConfigurationReference = 49F5ADB1C861F8D95856A425FF407718 /* JVUIButtonExtensions.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1357,14 +1448,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter.modulemap";
-				PRODUCT_MODULE_NAME = JVGenericNotificationCenter;
-				PRODUCT_NAME = JVGenericNotificationCenter;
+				MODULEMAP_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVUIButtonExtensions;
+				PRODUCT_NAME = JVUIButtonExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B342752F66DF9A4FB9BAE10A312AE503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEC98FF5E36B57DF6499893499DC73A /* JVConstraintEdges.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVConstraintEdges/JVConstraintEdges-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVConstraintEdges/JVConstraintEdges.modulemap";
+				PRODUCT_MODULE_NAME = JVConstraintEdges;
+				PRODUCT_NAME = JVConstraintEdges;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1376,9 +1500,9 @@
 			};
 			name = Release;
 		};
-		CFE25B4C57CF0A850CB178BB5CA7A24F /* Debug */ = {
+		B3738124338004ADDC180E8B072F2F49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CE2F303D9D13299E3B53E00CA0A837 /* JVGenericNotificationCenter.xcconfig */;
+			baseConfigurationReference = 49F5ADB1C861F8D95856A425FF407718 /* JVUIButtonExtensions.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1391,14 +1515,47 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVGenericNotificationCenter/JVGenericNotificationCenter.modulemap";
-				PRODUCT_MODULE_NAME = JVGenericNotificationCenter;
-				PRODUCT_NAME = JVGenericNotificationCenter;
+				MODULEMAP_FILE = "Target Support Files/JVUIButtonExtensions/JVUIButtonExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVUIButtonExtensions;
+				PRODUCT_NAME = JVUIButtonExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6DF5E54A1AD2804988AC1FBB58FC8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C45EAADA581F2C7C41E0123B96F994 /* JVJSONCodable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVJSONCodable/JVJSONCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable.modulemap";
+				PRODUCT_MODULE_NAME = JVJSONCodable;
+				PRODUCT_NAME = JVJSONCodable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1409,9 +1566,42 @@
 			};
 			name = Debug;
 		};
+		CBB2E3671696635F26A24C733C24E371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C45EAADA581F2C7C41E0123B96F994 /* JVJSONCodable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVJSONCodable/JVJSONCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVJSONCodable/JVJSONCodable.modulemap";
+				PRODUCT_MODULE_NAME = JVJSONCodable;
+				PRODUCT_NAME = JVJSONCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D31A7685928BC27C2887807BDF503812 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE31EFE5E085DE05D500E0135CC529F6 /* JVConstraintEdges.xcconfig */;
+			baseConfigurationReference = CEEC98FF5E36B57DF6499893499DC73A /* JVConstraintEdges.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1444,7 +1634,7 @@
 		};
 		E8DAA9DED0B3E6A76833C06BFEEACF36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F11B411EB8022666D1BA3A1D02FE5E9F /* JVSizeable.xcconfig */;
+			baseConfigurationReference = 2A42A46F2FD94B32996BFE5A6840D119 /* JVSizeable.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1477,7 +1667,7 @@
 		};
 		F142C36EE77D3D5AD1571BD63EC3FA20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781C36161AD21EB1643F4843EA3DD475 /* JVContentType.xcconfig */;
+			baseConfigurationReference = 045E04DE3C3779C7F68CF9EE54BEA676 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1510,7 +1700,7 @@
 		};
 		F19F119A60788346DC7DA42F9BEBB6D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781C36161AD21EB1643F4843EA3DD475 /* JVContentType.xcconfig */;
+			baseConfigurationReference = 045E04DE3C3779C7F68CF9EE54BEA676 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1605,11 +1795,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CF4B704CAC4237B66ABA3A1DB1C4EDC /* Build configuration list for PBXNativeTarget "Pods-JVLoadableImage_Tests" */ = {
+		94167CAF12708C2C25BD493ED66E6FC2 /* Build configuration list for PBXNativeTarget "JVJSONCodable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C114EB53248A1EB913E53DBF3561F3C7 /* Debug */,
-				579234C0FF1DBBADE185D2BD3FC68ADD /* Release */,
+				B6DF5E54A1AD2804988AC1FBB58FC8C3 /* Debug */,
+				CBB2E3671696635F26A24C733C24E371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB490902C6A802F27B3A39217401DF66 /* Build configuration list for PBXNativeTarget "Pods-JVLoadableImage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFC6CD7D760E5719D461F8BA0142DA9 /* Debug */,
+				740720DF9C658BFCFF8FFBE54366573D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97C880E865D989F2AAC2DB15B324773 /* Build configuration list for PBXNativeTarget "JVGenericNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22119959890CC9F48FFB5950F7FA2486 /* Debug */,
+				2E7A0C51B9249D5FC0B4F0693A2550E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1619,15 +1827,6 @@
 			buildConfigurations = (
 				A210A86C703ED9A494865F84DA537E7E /* Debug */,
 				B3738124338004ADDC180E8B072F2F49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F09ABD265EB16962AF3954E7DDDEEA12 /* Build configuration list for PBXNativeTarget "JVGenericNotificationCenter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFE25B4C57CF0A850CB178BB5CA7A24F /* Debug */,
-				C88FCEF1EBCA9F9080D4ABC8CCE2D76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

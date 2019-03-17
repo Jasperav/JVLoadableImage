@@ -1,32 +1,16 @@
-/// Not really the user info from the notification center, but this is what we want 99% of the cases anyway.
-public typealias NotificationCenterUserInfo = [String: Any]
-
-/// The generic object that will be used for sending and retrieving objects through the notification center.
-public protocol NotificationCenterUserInfoMapper {
-    static var notificationName: Notification.Name { get }
-    
-    static func mapFrom(userInfo: NotificationCenterUserInfo) -> Self
-    
-    func map() -> NotificationCenterUserInfo
-}
-
-public extension NotificationCenterUserInfoMapper {
-    func post() {
-        NotificationCenter.default.post(name: Self.notificationName, object: nil, userInfo: map())
-    }
-}
+import JVJSONCodable
 
 /// The object that will be used to listen for notification center incoming posts.
 public protocol NotificationCenterObserver: class {
     
     /// The generic object for sending and retrieving objects through the notification center.
-    associatedtype T: NotificationCenterUserInfoMapper
+    associatedtype MappedType: NotificationCenterSendable
     
     /// The selector executor that will be used as a bridge for Objc - C compability.
     var selectorExecutor: NotificationCenterSelectorExecutor! { get set }
     
     /// Required implementing method when the notification did send a message.
-    func retrieved(observer: T)
+    func retrieved(observer: MappedType)
 }
 
 public extension NotificationCenterObserver {
@@ -36,13 +20,13 @@ public extension NotificationCenterObserver {
         
         selectorExecutor = NotificationCenterSelectorExecutor(execute: retrieved)
         
-        NotificationCenter.default.addObserver(selectorExecutor, selector: #selector(selectorExecutor.hit), name: Self.T.notificationName, object: nil)
+        NotificationCenter.default.addObserver(selectorExecutor, selector: #selector(selectorExecutor.hit), name: Self.MappedType.notificationName, object: nil)
     }
     
     /// Retrieved non type safe information from the notification center.
     /// Making a type safe object from the user info.
-    func retrieved(userInfo: NotificationCenterUserInfo) {
-        retrieved(observer: T.mapFrom(userInfo: userInfo))
+    func retrieved(userInfo: Dictionary) {
+        retrieved(observer: MappedType.decodeFrom(data: userInfo))
     }
 }
 
@@ -50,14 +34,14 @@ public extension NotificationCenterObserver {
 public class NotificationCenterSelectorExecutor {
     
     /// The method that will be called when the notification center did send a message.
-    private let execute: ((_ userInfo: NotificationCenterUserInfo) -> ())
+    private let execute: ((_ userInfo: Dictionary) -> ())
     
-    public init(execute: @escaping ((_ userInfo: NotificationCenterUserInfo) -> ())) {
+    public init(execute: @escaping ((_ userInfo: Dictionary) -> ())) {
         self.execute = execute
     }
     
     /// The notification did send a message. Forwarding to the protocol method again.
     @objc fileprivate func hit(_ notification: Notification) {
-        execute(notification.userInfo! as! NotificationCenterUserInfo)
+        execute(notification.userInfo! as! Dictionary)
     }
 }
