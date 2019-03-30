@@ -15,6 +15,13 @@ open class LoadableImage: UIView, NotificationCenterObserver {
             default: return false
             }
         }
+        
+        var image: UIImage? {
+            switch self {
+            case .presenting(let image): return image
+            default: return nil
+            }
+        }
     }
 
     public typealias MappedType = NotificationCenterImageSender
@@ -23,6 +30,10 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     
     public var isLoading: Bool {
         return currentState.isLoading
+    }
+    
+    public var image: UIImage? {
+        return currentState.image
     }
     
     public private (set) var currentState = CurrentState.loading
@@ -34,7 +45,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     
     public var tapped: (() -> ())!
     
-    private let image = UIButton(frame: .zero)
+    private let imageButton = UIButton(frame: .zero)
     private let indicator: UIActivityIndicatorView
     private let rounded: Bool
 
@@ -45,12 +56,12 @@ open class LoadableImage: UIView, NotificationCenterObserver {
                 isUserInteractionEnabled: Bool = true) {
         indicator = UIActivityIndicatorView(style: style)
         self.rounded = rounded
-        self.image.clipsToBounds = rounded
+        self.imageButton.clipsToBounds = rounded
         self.tapped = tapped
         
         super.init(frame: .zero)
         
-        imageView = image.imageView!
+        imageView = imageButton.imageView!
         
         assert(tapped != nil ? isUserInteractionEnabled : true)
         
@@ -68,17 +79,17 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     
     /// Will show an image with an indicator to indicate a higher resolution photo is being downloaded
     open func show(blurredImage: UIImage) {
-        image.setImage(blurredImage, for: .normal)
-        image.alpha = 1
-        image.isUserInteractionEnabled = false
+        imageButton.setImage(blurredImage, for: .normal)
+        imageButton.alpha = 1
+        imageButton.isUserInteractionEnabled = false
         indicator.alpha = 1
         currentState = .loading
     }
     
     open func show(image: UIImage) {
-        self.image.setImage(image, for: .normal)
-        self.image.alpha = 1
-        self.image.isUserInteractionEnabled = true
+        self.imageButton.setImage(image, for: .normal)
+        self.imageButton.alpha = 1
+        self.imageButton.isUserInteractionEnabled = true
         
         indicator.alpha = 0
         currentState = .presenting(image)
@@ -88,13 +99,13 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         // We have to do this every time the cell reappears.
         indicator.startAnimating()
         indicator.alpha = 1
-        image.alpha = 0
-        image.isUserInteractionEnabled = false
+        imageButton.alpha = 0
+        imageButton.isUserInteractionEnabled = false
         currentState = .loading
     }
     
     public func stretchImage() {
-        image.stretchImage()
+        imageButton.stretchImage()
     }
     
     open override func layoutSubviews() {
@@ -104,9 +115,9 @@ open class LoadableImage: UIView, NotificationCenterObserver {
             return
         }
         
-        assert(image.bounds.height == image.bounds.width, "The width of the image isn't equal to the height of the image. This is illegal.")
+        assert(imageButton.bounds.height == imageButton.bounds.width, "The width of the image isn't equal to the height of the image. This is illegal.")
         
-        image.layer.cornerRadius = image.bounds.height / 2
+        imageButton.layer.cornerRadius = imageButton.bounds.height / 2
     }
     
     public func retrieved(observer: NotificationCenterImageSender) {
@@ -126,18 +137,18 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     }
     
     private func addImage(isUserInteractionEnabled: Bool) {
-        image.fill(toSuperview: self)
+        imageButton.fill(toSuperview: self)
         
-        image.imageView!.contentMode = .scaleAspectFit
-        image.isUserInteractionEnabled = isUserInteractionEnabled
+        imageButton.imageView!.contentMode = .scaleAspectFit
+        imageButton.isUserInteractionEnabled = isUserInteractionEnabled
         
-        guard image.isUserInteractionEnabled else {
+        guard imageButton.isUserInteractionEnabled else {
             // Without this, the image sometimes gets enabled again, dunno why...
             self.isUserInteractionEnabled = false
             
             return
         }
         
-        image.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
+        imageButton.addTarget(self, action: #selector(_tapped), for: .touchUpInside)
     }
 }
