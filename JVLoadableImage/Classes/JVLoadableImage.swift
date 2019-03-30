@@ -5,10 +5,27 @@ import JVUIButtonExtensions
 
 /// Presents a loading view wich acts like a placeholder for an upcoming image.
 open class LoadableImage: UIView, NotificationCenterObserver {
+    
+    public enum CurrentState {
+        case loading, presenting(UIImage)
+        
+        var isLoading: Bool {
+            switch self {
+            case .loading: return true
+            default: return false
+            }
+        }
+    }
 
     public typealias MappedType = NotificationCenterImageSender
     
-    public private (set) var isLoading = true
+    public private (set) var imageView: UIImageView!
+    
+    public var isLoading: Bool {
+        return currentState.isLoading
+    }
+    
+    public private (set) var currentState = CurrentState.loading
     
     public var selectorExecutor: NotificationCenterSelectorExecutor!
     
@@ -16,13 +33,11 @@ open class LoadableImage: UIView, NotificationCenterObserver {
     public var identifier: Int64 = 0
     
     public var tapped: (() -> ())!
-    public var imageView: UIImageView!
     
     private let image = UIButton(frame: .zero)
     private let indicator: UIActivityIndicatorView
     private let rounded: Bool
 
-    
     public init(style: UIActivityIndicatorView.Style = .gray,
                 rounded: Bool,
                 registerNotificationCenter: Bool = true,
@@ -57,7 +72,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         image.alpha = 1
         image.isUserInteractionEnabled = false
         indicator.alpha = 1
-        isLoading = true
+        currentState = .loading
     }
     
     open func show(image: UIImage) {
@@ -66,7 +81,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         self.image.isUserInteractionEnabled = true
         
         indicator.alpha = 0
-        isLoading = false
+        currentState = .presenting(image)
     }
     
     open func showIndicator() {
@@ -75,7 +90,7 @@ open class LoadableImage: UIView, NotificationCenterObserver {
         indicator.alpha = 1
         image.alpha = 0
         image.isUserInteractionEnabled = false
-        isLoading = true
+        currentState = .loading
     }
     
     public func stretchImage() {
