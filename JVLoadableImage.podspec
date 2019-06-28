@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JVLoadableImage'
-  s.version          = '0.3.4'
+  s.version          = '0.3.5'
   s.summary          = 'A short description of JVLoadableImage.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.

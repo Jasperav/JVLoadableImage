@@ -1,7 +1,7 @@
 import UIKit
 import JVConstraintEdges
 import JVGenericNotificationCenter
-import JVUIButtonExtensions
+import JVUIButton
 import JVDebugProcessorMacros
 import AVKit
 
